@@ -1,0 +1,29 @@
+{
+  "resultcode": "200",
+  "results": [
+    {
+      "name": "XN上海国美长宁3C店",
+      "address": "上海市长宁路986号",
+      "tel": "021-65888888",
+      "maintenanceMargin": "电力猫，数据卡，平板电脑，手机",
+      "businessHours": "周一到周日：9：00 - 18：00",
+      "networkImg": ""
+    },
+    {
+      "name": "国美电器手机维修中心（长宁店）",
+      "address": "上海浦东新区张江高科技园区金科路363号浦软大厦102",
+      "tel": "021-65888888",
+      "maintenanceMargin": "电力猫，数据卡，平板电脑，手机",
+      "businessHours": "周一到周日：9：00 - 18：00",
+      "networkImg": ""
+    },
+    {
+      "name": "上海国美上南店",
+      "address": "上海市浦东新区上南路3068号",
+      "tel": "021-65888888",
+      "maintenanceMargin": "电力猫，数据卡，平板电脑，手机",
+      "businessHours": "周一到周日 9:00 – 18:00",
+      "networkImg": ""
+    }
+  ]
+}

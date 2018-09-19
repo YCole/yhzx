@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:background="@drawable/preference_background_selector"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/gome_list01_height"
+        android:paddingLeft="@dimen/gome_padding_size_20dp"
+        android:paddingRight="@dimen/gome_padding_size_14dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/unread_point"
+            android:ellipsize="end"
+            android:textColor="@color/gome_color_black"
+            android:singleLine="true"/>
+
+        <ImageView android:id="@+id/unread_point"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/red_point"
+            android:layout_toLeftOf="@+id/detail"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/detail"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_next_pager_icon"/>
+    </RelativeLayout>
+    <View
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/gome_padding_size_20dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/gome_divider_height"
+        android:background="@color/dark_background"/>
+</RelativeLayout>

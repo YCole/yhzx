@@ -1,0 +1,29 @@
+{
+  "resultcode": "200",
+  "results": [
+    {
+      "name": "XN南京新街口店",
+      "address": "江苏省南京市白下区洪武路137号",
+      "tel": "021-65888888",
+      "maintenanceMargin": "电力猫，数据卡，平板电脑，手机",
+      "businessHours": "周一到周日：9：00 - 18：00",
+      "networkImg": ""
+    },
+    {
+      "name": "南京上元大街店",
+      "address": "江苏省南京市江宁区东山镇上元大街559号",
+      "tel": "021-65888888",
+      "maintenanceMargin": "电力猫，数据卡，平板电脑，手机",
+      "businessHours": "周一到周日：9：00 - 18：00",
+      "networkImg": ""
+    },
+    {
+      "name": "南京大厂店",
+      "address": "江苏省南京市大厂沿江工业开发区经久菜市场旁（国美电器）",
+      "tel": "021-65888888",
+      "maintenanceMargin": "电力猫，数据卡，平板电脑，手机",
+      "businessHours": "周一到周日 9:00 – 18:00",
+      "networkImg": ""
+    }
+  ]
+}

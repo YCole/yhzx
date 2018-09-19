@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.gome.usercenter.activity.ReservationAndMaintenanceActivity">
+
+    <fragment android:id="@+id/search_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:name="com.gome.usercenter.fragment.ReservationSearchFragment"
+        android:focusable="true"
+        android:focusableInTouchMode="true"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_fragment"
+        android:src="@drawable/gome_icon_usercenter_background1"
+        android:scaleType="fitXY"/>
+
+
+    <LinearLayout
+        android:id="@+id/text_my_reservation"
+        android:layout_below="@id/search_fragment"
+        android:layout_marginLeft="@dimen/gome_padding_size_20dp"
+        android:layout_marginTop="@dimen/gome_padding_size_5dp"
+        android:layout_marginBottom="@dimen/gome_padding_size_5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/my_reservation"
+            android:textColor="@color/gome_first_line_text_color"
+            android:textSize="@dimen/gome_body2_pop_normal_size" />
+    </LinearLayout>
+
+    <!--LinearLayout
+        android:id="@+id/reservation_apply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_fragment"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/apply_reservation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/search_view_padding_top"
+            android:paddingBottom="@dimen/search_view_padding_bottom"
+            android:gravity="center"
+            android:drawablePadding="@dimen/gome_padding_size_5dp"
+            android:drawableLeft="@drawable/gome_icon_usercenter_new"
+            android:text="@string/apply_reservation"/>
+    </LinearLayout-->
+
+
+    <LinearLayout
+        android:id="@+id/reservation_apply"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/apply_reservation"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/gome_padding_size_40dp"
+            android:layout_margin="@dimen/gome_padding_size_20dp"
+            android:text="@string/apply_reservation"
+            android:textAppearance="@style/singlelist_text_appearance"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_my_reservation"
+        android:layout_above="@id/reservation_apply"
+        android:paddingLeft="@dimen/gome_padding_size_5dp"
+        android:paddingRight="@dimen/gome_padding_size_5dp">
+
+        <LinearLayout
+            android:id="@+id/reservation_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/reservation_status_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/gome_padding_size_20dp"
+        android:paddingRight="@dimen/gome_padding_size_20dp"
+        android:lineSpacingExtra="@dimen/gome_padding_size_2dp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/gome_custom_text_size_12sp"
+        android:textColor="@color/ic_default_back_text_info_color"
+        android:visibility="invisible"/>
+</RelativeLayout>

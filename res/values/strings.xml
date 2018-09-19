@@ -1,0 +1,373 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">UserCenter</string>
+    <string name="gome_account_title">Login / Register</string>
+    <string name="gome_accout_summary">Login GOME account can enjoy more rights and interests</string>
+    <string name="denied_required_permission">Permissions denied. You can change them in Settings &gt; Apps.</string>
+    <string name="default_label">N/A</string>
+    <string name="self_service">Self service</string>
+    <string name="feedback">Feedback</string>
+    <string name="user_policy">User Policy</string>
+    <string name="service_hotline">Service hotline</string>
+    <string name="experience_version_request">Apply for beta version</string>
+    <string name="experience_version_title">Apply for beta version</string>
+    <string name="experience_version_resultt">No available beta version</string>
+    <string name="after_sale_service_station">Service centers</string>
+    <string name="reservation_service">Repair service</string>
+    <string name="service_policy">Service policy</string>
+    <string name="usercenter_help">Guide</string>
+    <string name="maintenance_progress">Service progress query</string>
+    <string name="optimization_label">Performance optimization</string>
+    <string name="sercurity_label">Safety tools</string>
+    <string name="manager_label">Mobile management</string>
+    <string name="boost">Slowdown</string>
+    <string name="junk_clean">Clear trash</string>
+    <string name="phone_clean">Deep cleanup</string>
+    <string name="battery_saver">Battery</string>
+    <string name="boot_up_boost">Acceleration</string>
+    <string name="virus_clean">Anti-virus</string>
+    <string name="network_control">Network management</string>
+    <string name="privacy_permissions">Privacy protection</string>
+    <string name="harassment_intercept">Blocklist</string>
+    <string name="exam_phone">Diagnosis</string>
+    <string name="data_backup">Data backup</string>
+    <string name="data_usage">Data monitoring</string>
+    <string name="network_connection">Network connection</string>
+    <string name="notification_manage">Notification management</string>
+    <string name="hotline_title">400-898-8666 GOME phone service hotline</string>
+    <string name="hotline_summary">Business Hours  09:00-18:00</string>
+    <string name="only_call_by_landline">Business Hours  9:00-18:00( Dial only )</string>
+    <string name="experience_version_and_note">Application and notes</string>
+    <string name="experience_version">Experience version</string>
+    <string name="experience_version_introduce">Introductory text Introductory text Introductory text Introductory text</string>
+    <string name="update_experience_version">Update notes</string>
+    <string name="update_experience_version_operation">1. This upgrade will not delete your user data,
+         but it is still recommended that you do a good data backup before upgrading.\n2. It will take about 20 minutes
+         for the upgrade process. Please wait patiently after clicking the "upgrade" button. Do not press the power
+         button or the volume button to avoid escalation.The phone will be restarted automatically during the upgrade.\n
+        3. If you encounter any problems during your use, please visit the "user center" or call the official service
+         hotline 400-898-8666 for support.</string>
+    <string name="roll_back_old_version">How do I roll back to stable version?</string>
+    <string name="roll_back_old_version_operation">Operation instructions Operation instructions Operation instructions</string>
+    <string name="agree_disclaimer">Read and understand</string>
+    <string name="disclaimer">Disclaimer</string>
+    <string name="disclaimer_unavailabled">Disclaimer is not available</string>
+    <string name="request_experience">Apply</string>
+    <string name="request_processing">Processing，please wait</string>
+    <string name="request_experience_success">Applied</string>
+    <string name="request_experience_failed">Not applied</string>
+    <string name="load_more_available">More</string>
+    <string name="on_loading">Loading</string>
+    <string name="no_more_data">No more</string>
+    <string name="all_feedbacks">FAQs</string>
+    <string name="my_feedback">My feedback</string>
+    <string name="user_agreement">User Agreement</string>
+    <string name="ok">Agree</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">OK</string>
+    <string name="proceedTo">Go to</string>
+    <string name="user_agreement_detail">1.  “User Center” requires access to the storage, location, Phone, and local account information permissions to provide you with GOME after-sales services (the storage and location permissions are only required if you select China).\n2.  During use, this app requires Internet access. The following information will also be collected and processed: \n&#160;&#160;&#160;&#160;&#8226;&#160;Device information, including IMEI, IMSI, MEID, SN, and model number.\n&#160;&#160;&#160;&#160;&#8226;&#160;The name, address, phone number, and email information you provided.\n&#160;&#160;&#160;&#160;You can exit the app to terminate information collection and uploading activities.\n3.  Using the Self service (China) in this app will launch the Phone Manager, GOME Cloud, and Backup features.</string>
+    <string name="user_agreement_decription">By tapping \"Agree\", you will agree to the above terms, <xliff:g id="LINK_BEGIN_0">LINK_BEGIN</xliff:g>User Agreement<xliff:g id="LINK_END_1">LINK_END</xliff:g> and <xliff:g id="LINK_BEGIN_0">LINK_BEGIN</xliff:g>GOME Privacy Policy<xliff:g id="LINK_END_1">LINK_END</xliff:g>.</string>
+    <string name="user_agreement_title">User Agreement</string>
+    <string name="gome_privacy_policy_title">GOME Privacy Policy</string>
+    <string name="user_center_help_title">Help</string>
+    <string name="feedback_notify">Feedback</string>
+    <string name="feedback_notify_server">Brief description*</string>
+    <string name="feedback_issue_detail">Describe your problem, as well as steps to reproduce. No more than 500 words</string>
+    <string name="feedback_user_contact">Phone number or email</string>
+    <string name="contact_us">You can call the GOME store service hotline:</string>
+    <string name="contact_us_tel">400&#8211;898&#8211;8666</string>
+    <string name="feedback_submit">Submit</string>
+    <string name="feedback_module">Category</string>
+    <string name="mode1">Module 1</string>
+    <string name="mode2">Module 2</string>
+    <string name="mode3">Module 3</string>
+    <string name="mode4">Module 4</string>
+
+    <string name="string_wlan_service_title">If you\'e having trouble connecting to a WLAN network possible reasons may be:</string>
+    <string name="string_wlan_service_tip1">1.WLAN is turned off. Go to Settings, turn on WLAN, select a network, and enter the password if prompted.</string>
+    <string name="string_wlan_service_tip2">2.The WLAN psaaword has changed. Rrconnect to the netword and enter the new password.</string>
+    <string name="string_wlan_service_tip3">3.If it\'s only your phone that\'s experiencing this issue, restart WLAN, or restart your phone and try again.</string>
+
+    <string name="string_mobile_data_service_title">If you\'e having trouble connecting to the Internet, possible reasons may be:</string>
+    <string name="string_mobile_data_service_tip1">1.Mobile data is turned off. Go to Settings and turn on your mobile data. if you are romaing, turn on data romaing(verifying potential romaing charges beforehand is highly recommended).</string>
+    <string name="string_mobile_data_service_tip2">2.You do not have an Internet access sevice. Contact your Internet sevice provider to enable GPRS.</string>
+    <string name="string_mobile_data_service_tip3">3.Your account has an outstanding balance.</string>
+    <string name="string_mobile_data_service_tip4">4.A software conflict or error has occurred. Restart your phone and try again.</string>
+
+    <string name="string_no_sim_card_found">No SIM card was detected. Please make sure there is an insert</string>
+
+    <string name="alert_network_unavaiable">The network is unavailable or is in bad condition</string>
+    <string name="dialog_title_no_network">Internet connection is not available, please check your network settings</string>
+    <string name="txt_set_network">Set</string>
+    <string name="txt_set_network_cancel">Cancel</string>
+
+    <string name="self_network">Network connection</string>
+    <string name="self_data_activity">Mobile network</string>
+    <string name="self_wlan_activity">WLAN</string>
+    <string name="to_setting">Settings</string>
+    <string name="add_picture">Add picture</string>
+
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_allow">Allow</string>
+    <string name="dialog_forbidden">Forbid</string>
+    <string name="dialog_login_alert_feedback_your_suggestion">Before submitting the feedback, you need to log in your GOME ID</string>
+    <string name="dialog_login_alert_apply_for_experience">Please log in your GOME ID first</string>
+    <string name="dialog_login_alert_apply_for_reservation">Before apply for an appointment, please log in your GOME account</string>
+    <string name="dialog_message_cancel_reservation">Cancel this reservation?</string>
+
+    <string name="toast_input_infomation_is_null">Please fill all your information</string>
+    <string name="toast_input_infomation_correct_format">Please input information in correct format</string>
+    <string name="toast_input_phone_or_email_correct_format">Please input information in correct format</string>
+
+    <string name="telephone">Phone number</string>
+    <string name="address">Address</string>
+    <string name="maintenance_margin">Service range</string>
+    <string name="business_hours">Business hours</string>
+    <string name="reserve_maintenance">Repair Reservation</string>
+    <string name="reserve_timepicker">Time</string>
+    <string name="reserve_username_hint">Enter your name</string>
+    <string name="reserve_mobile_number_hint">Enter phone number</string>
+
+    <string name="card_title_reservation_number">Tracking number</string>
+    <string name="card_title_reservation_time">Reserved time</string>
+    <string name="card_title_reservation_station">Service center</string>
+    <string name="card_title_model_number">Device</string>
+    <string name="card_title_user_name">User name</string>
+    <string name="card_title_mobile_number">Phone number</string>
+    <string name="card_title_issue_description">Problem description</string>
+    <string name="card_title_maintenance_number">Maintenance number</string>
+    <string name="card_title_current_state">Current status</string>
+    <string name="card_title_processing_time">Acceptance time</string>
+    <string name="card_title_return_machine_time">Return time</string>
+    <string name="card_title_money_amount">Cost</string>
+
+    <string name="fold_card_view">Fold</string>
+    <string name="expand_card_view">Show More</string>
+    <string name="maintenance_card_title">Repair in progress</string>
+    <string name="reservation_card_title">Reservation is successful</string>
+    <string name="history_card_title">Service history</string>
+    <string name="commit_success">Reserved successfully</string>
+    <string name="commit_dlg_message">committing to server</string>
+    <string name="search_hint">Enter your phone number to check progress</string>
+    <string name="reserve_title">Make a reservation</string>
+    <string name="progress_dialog_loading">Loading</string>
+    <string name="progress_dialog_locating">locating, please wait</string>
+
+    <string name="issue_network_unavailable">Can not connect to the Internet</string>
+    <string name="issue_mobile_signal">Bad signal</string>
+    <string name="issue_machine_boot">Unable to boot</string>
+    <string name="issue_system_crash">System crash</string>
+    <string name="issue_display_error">Display Error</string>
+    <string name="issue_call_exception">Call exception</string>
+    <string name="issue_system_halt_auto">Automatic shut-down</string>
+    <string name="issue_unrecognize_sim">Cannot find SIM card</string>
+    <string name="issue_touch_screen">Bad touch</string>
+
+    <string name="issue_desciption_fragment_label">Issue detail</string>
+    <string name="issue_description_hint">Describe your problem, no more than 200 words</string>
+    <string name="string_module_crash">System crashes</string>
+    <string name="string_module_flash_back">App crashes</string>
+    <string name="string_module_performance">Performance</string>
+    <string name="string_module_consume_power">Power consumption</string>
+    <string name="string_module_signal">Signal</string>
+    <string name="string_module_camera">Camera</string>
+    <string name="string_module_call">Call</string>
+    <string name="string_module_others">Other</string>
+
+    <string name="default_feedback_reboot">Auto power off or reboot</string>
+    <string name="default_feedback_cant_power_on">Can not power on</string>
+    <string name="default_feedback_wlan">WLAN connect fail</string>
+    <string name="default_feedback_performance">Performance bad</string>
+    <string name="default_feedback_data">Can not access to the Internet after turn on data service switch</string>
+    <string name="default_feedback_volume_low">Low volume in call</string>
+    <string name="default_feedback_charge_slow">Charge too slow</string>
+    <string name="default_feedback_install_fail">Install fail</string>
+
+
+    <string name="default_feedback_reboot_detail">1、General third party security software, antivirus software easily lead to data conflicts, uninstall such software after the restart, to observe whether the phone is normal.
+\n2、After the proposed backup of important data, the phone will be returned to the factory settings, without the resumption of data under the premise of using a period of time to see whether the phone is normal.
+\n\nIf the above methods are invalid, it is recommended that you contact customer service or to after-sales network testing.
+    </string>
+    <string name="default_feedback_cant_power_on_detail">1、Long press the power button for more than 10 seconds, try to force restart.\n2、Charging half an hour after trying to restart, because the power is too low to boot, just plug into the charger may not light screen, but the breath light flashing.
+\n\nIf the above methods are invalid, it is recommended that you contact customer service or to after-sales network testing.
+</string>
+    <string name="default_feedback_wlan_detail">1、If the WLAN hotspot is the encryption hotspot, enter the correct password and case sensitive.
+\n2、Please put your cell phone in the WLAN hotspot effective distance. The distance may cause the network to automatically disconnect.\n3、WLAN may have reached the maximum number of connections. Try connecting to other available networks.
+\n4、Some public WLAN hotspots may need to be logged on at the web site, and you can consult the WLAN hotspot provider.
+\n5、Please check whether the wireless router opens the MAC address filtering function. You can set the MAC address of your cell phone as a trusted MAC address.
+\n\nIf the above methods are invalid, it is recommended that you contact customer service or to after-sales network testing.
+</string>
+    <string name="default_feedback_performance_detail">1、Into the mobile housekeeper, will automatically open a key optimization.
+\n2、Into the mobile housekeeper interface, click cleaning acceleration.\n3、Enter the mobile phone Housekeeper - > clean accelerated depth cleaning according to the screen - >, clean up junk files in mobile phone.
+\n4、Restart cell phone.\n\nIf the above methods are invalid, it is recommended that you contact customer service or to after-sales network testing.
+</string>
+    <string name="default_feedback_data_detail">1、Please make sure the phone is inserted into the correct SIM/USIM card. Different formats of mobile phones support SIM/USIM is not the same, please refer to the specific mobile phone providers.
+\n2、Please check to see if the Internet has been opened. Please contact the operator to open Internet access.
+\n3、Please check whether you have overdue payment. Operators may stop offering internet access to already paid users.
+\n4、Please check to see if the flow display is set. If the traffic limit is set, the data cannot be used when the traffic is limited.
+\n5、You may not be able to use the Internet after you recharge your phone. Please restart your cell phone.
+\n\nIf the above methods are invalid, it is recommended that you contact customer service or to after-sales network testing.
+</string>
+    <string name="default_feedback_volume_low_detail">1、During the call, use volume key to turn up the sound.
+\n2、Check if the film, holster and so on are shielded from the receiver. If it is recommended, remove or replace it.
+\n3、Change the time, location, and contacts to rule out any network problems.
+\n\nIf the above methods are invalid, it is recommended that you contact customer service or to after-sales network testing.
+</string>
+    <string name="default_feedback_charge_slow_detail">1、If the charge is not fully charged for a long time, please confirm whether the original charger is used to charge the mobile phone, whether there is a charging interface, bad contact and so on.
+\n2、It is recommended not to use the mobile phone for a long time during charging, and do not place the mobile phone in a poor heat dissipation environment.
+\n3、If you use the output current smaller power charge, charging will be slower, it is recommended to use the original charger or replace the output current slightly larger power charge.
+\n\nIf the above methods are invalid, it is recommended that you contact customer service or to after-sales network testing.
+</string>
+    <string name="default_feedback_install_fail_detail">1、Mobile phones only support third party applications in APK format. Please check that the format is correct.
+\n2、The downloaded third party application may not be compatible, and it is recommended that you try to download other similar applications.
+\n3、You need to verify that you have trusted the program source. Enter the settings - > Advanced Settings - > security, select unknown sources, and then reinstall the application.
+\n\nIf the above methods are invalid, it is recommended that you contact customer service or to after-sales network testing.
+</string>
+
+    <string name="reservation_cancel">Cancel reservation</string>
+    <string name="contact_customer_service">Contact Customer Service</string>
+    <string name="experience_applying">Applying，please wait</string>
+    <string name="user_name">Full name</string>
+    <string name="time_picker_date_format">%1$dYear%2$dDay</string>
+    <string name="reserve_station">Reserve station</string>
+    <string name="reserve_data">Reserve Data</string>
+    <string name="reservation_service_type">Service type</string>
+    <string name="personal_information">Basic info</string>
+    <string name="module_number">Model</string>
+    <string name="mobile_number">Phone Number</string>
+    <string name="maintenance_mode">Repair method</string>
+    <string name="apply_reservation">Make a reservation</string>
+    <string name="my_reservation">My reservation</string>
+    <string name="arrival_time">Arrival time</string>
+    <string name="choose_station">Service center*</string>
+    <string name="commit">Submit</string>
+    <string name="next_step">Next</string>
+    <string name="distract_citypicker">Location</string>
+    <string name="distract_belong">Location</string>
+    <string name="failure_issue">Problem description</string>
+    <string name="issue_description">Problem description</string>
+    <string name="machine_information">Device name</string>
+    <string name="choose_module">Category</string>
+    <string name="choose_finish">Confirm</string>
+    <string name="choose_tip">Please choose which of the following modules are experiencing (radio)</string>
+    <string name="history_time">Submit time: </string>
+    <string name="solution">Solution: </string>
+    
+    <string name="edit_completed">Completed</string>
+    <string name="entered_error">Not entered or entered incorrectly</string>
+    <string name="edit_not_null">Description should not be null</string>
+
+    <string name="default_summary_machine_information">Model</string>
+    <string name="default_summary_region">Province &amp; city</string>
+    <string name="default_summary_station">Select service center</string>
+    <string name="default_summary_reservation_time">Date and time</string>
+    <string name="default_summary_issue_description">Please fill in</string>
+    <string name="default_summary_service_type">Choose option</string>
+    <string name="default_summary_user_name">Enter your name</string>
+    <string name="default_summary_mobile_number">Enter phone number</string>
+
+    <string name="error_unselect">Unselected</string>
+    <string name="check_not_null_message">Information missing, * is required</string>
+
+    <string name="maintenance_mode_content">Bring in for repair</string>
+    <string name="service_type_item1">Service</string>
+    <string name="service_type_item2">Return</string>
+    <string name="service_type_item3">Exchange</string>
+
+    <string name="choose_station">Service center</string>
+    <string name="select_district_required">Please select district first</string>
+
+    <string name="dialog_permit">Allow</string>
+    <string name="dialog_forbid">Forbid</string>
+    <string name="dialog_yes">OK</string>
+    <string name="dialog_no">Cancel</string>
+    <string name="dialog_location_message">Allow to access to your location?</string>
+    <string name="unknow">--</string>
+    <string name="unknow_address">No network connection, please check the network settings!</string>
+    <string name="progress_feedback_to_server">Suggestion uploading, please wait</string>
+    <string name="suggestion_send_fail">Send your suggestion fail</string>
+    <string name="server_not_available">Server is not available!</string>
+    <string name="refreshing_data">Loading</string>
+    <string name="network_data_unaccessable">Network data unaccessable</string>
+    <string name="network_timeout">Network timeout</string>
+    <string name="no_data_query">No available data</string>
+    <string name="appointment_cancel_success">Cancel appointment successful</string>
+    <string name="appointment_cancel_failed">Appointment cancel failed</string>
+    <string name="appointment_maintenance_title">Repair service</string>
+
+    <string name="hint_max_text_50">0/50</string>
+    <string name="hint_max_text_500">0/500</string>
+    <string name="hint_max_text_1">0/1</string>
+    <string name="count_text_50">/50</string>
+    <string name="count_text_500">/500</string>
+    <string name="count_text_1">/1</string>
+    <string name="toast_out_of_max_length">Your input has reach the limit</string>
+    <string name="experience_version_introduce_summary">Upgrade profile:</string>
+    <string name="experience_version_introduce_size">Update package size:</string>
+    <string name="experience_version_introduce_description">Updated content:</string>
+    <string name="toast_ensure_your_network">Unable to get address data. Please make sure the network connection is available</string>
+    <string name="toast_no_maintenance_center_data">There are no after-sale outlets in this area</string>
+
+    <string name="string_service_type">Choose option</string>
+    <string name="empty"></string>
+    <string name="location_failed_message4">Location failed, please check whether the device network is free, and try again</string>
+    <string name="location_failed_message13">Location failed, please open the WIFI or insert a SIM card that can work normally, or check if the GPS is turned on, and try again</string>
+    <string name="location_failed_message18">Location failed, please turn off the flight mode and open the WIFI switch, and try again</string>
+    <string name="location_failed_message19">Location failed, please insert a sim card or turn on the WIFI switch, and try again</string>
+    <string name="location_failed_default_message">Location failed</string>
+
+    <string name="reservation_maintenance_no_maintenance">No reservations</string>
+    <string name="reservation_maintenance_no_information">No reservations</string>
+    <string name="reservation_maintenance_gome_account_notification">After log in with GOME ID,you can make a reservation and view the progress</string>
+    <string name="gome_account_token_invalid">account has expired, please login</string>
+    <string name="experience_version_apply_success_title">Application is successful</string>
+    <string name="experience_version_apply_success_message">Application is successful, please update current system at "Settings">"System update"</string>
+    <string name="system_update">Update system</string>
+    <string name="url_dialog_loading">Loading</string>
+    <string name="nick_name_is_null">No nickname set</string>
+
+    <string name="hint_max_text_200">0/200</string>
+    <string name="count_text_200">/200</string>
+
+    <string name="choose_phone_number_title">Choose Phone Number</string>
+    <string name="string_toast_picture_out_of_size">Image size can not exceed 10MB</string>
+    <string name="string_picture_add_notice">Picture (optional, please provide picture of the problem)</string>
+
+    <string name="account_progress_dialog_loading">Loading</string>
+    <string name="account_progress_dialog_error">Server is not available</string>
+    <string name="no_text">No_text_show</string>
+
+    <string name="guideline_title">用机指南</string>
+    <string name="guide_line_title">用机指南</string>
+
+    <string name="system_ui">System UI</string>
+    <string name="open_notification_center">打开控制/通知中心</string>
+    <string name="hide_actionbar">隐藏导航键/导航手势</string>
+    <string name="back_status_bar_top">点击状态栏界面返回顶部</string>
+
+    <string name="facial_recognition">面部识别</string>
+    <string name="face_input">人脸录入</string>
+    <string name="facical_unlock">面部解锁</string>
+    <string name="face_me">Face-Me功能</string>
+
+    <string name="safe_mode">安全模式</string>
+    <string name="feature_introduction">功能介绍</string>
+    <string name="turn_on_safe_mode">开启安全模式</string>
+    <string name="enter_voiceprint">录入声纹</string>
+    <string name="voice_lock">安全模式进入方式1：声音锁</string>
+    <string name="double_lock">安全模式进入方式2：双重锁（声音+人脸）</string>
+
+    <string name="my_keychain">钥匙串</string>
+    <string name="login_app">登录应用</string>
+    <string name="generate_password">生成密码</string>
+    <string name="copy_account_password">一键复制粘贴帐号和密码</string>
+    <string name="new_username_password">新建用户名和密码</string>
+    <string name="disorder_password">密码乱序</string>
+    <string name="backup_and_restore">备份与恢复</string>
+
+    <string name="app_lock">应用锁</string>
+    <string name="turn_on_applock">开启应用锁</string>
+    <string name="use_applock">使用应用锁</string>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.gome.usercenter.view.GomeScrollView
+        android:scrollbars="none"
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="@dimen/gome_padding_size_2dp"
+            android:text="@string/user_agreement_detail"
+            android:textAppearance="@style/gome_body02_pop_textAppearance"/>
+    </com.gome.usercenter.view.GomeScrollView>
+    <TextView
+        android:layout_marginTop="@dimen/gome_padding_size_2dp"
+        android:id="@+id/user_agreement_decription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="@dimen/gome_padding_size_2dp"
+        android:text="@string/user_agreement_decription"
+        android:textAppearance="@style/gome_body02_pop_balck_textAppearance" />
+</LinearLayout>

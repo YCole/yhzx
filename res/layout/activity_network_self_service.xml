@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/gome_padding_size_20dp"
+        android:paddingRight="@dimen/gome_padding_size_14dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/layout_data_next"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/gome_list00_height"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/self_data_activity"
+                android:textAppearance="@style/singlelist_text_appearance"/>
+
+            <ImageView android:id="@+id/data_next"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:scaleType="fitXY"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_next_pager_icon"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_marginLeft="@dimen/gome_padding_size_20dp"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/dark_background"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/gome_padding_size_20dp"
+        android:paddingRight="@dimen/gome_padding_size_14dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/layout_wifi_next"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/gome_list00_height"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/self_wlan_activity"
+                android:textAppearance="@style/singlelist_text_appearance"/>
+
+            <ImageView android:id="@+id/wlan_next"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:scaleType="fitXY"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_next_pager_icon"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <View
+        android:layout_marginLeft="@dimen/gome_padding_size_20dp"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/dark_background"/>
+</LinearLayout>

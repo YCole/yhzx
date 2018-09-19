@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gome.usercenter.activity.HotlineActivity">
+    <RelativeLayout
+        android:paddingLeft="@dimen/gome_padding_size_20dp"
+        android:paddingRight="@dimen/gome_padding_size_14dp"
+        android:paddingTop="@dimen/gome_padding_size_14dp"
+        android:paddingBottom="@dimen/gome_padding_size_14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center|left"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/call_image_container">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hotline_title"
+                android:textAppearance="@style/singlelist_text_appearance"/>
+            <TextView
+                android:layout_marginTop="@dimen/gome_padding_size_2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hotline_summary"
+                android:textAppearance="@style/singlelist_summary_appearance"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/call_image_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true">
+            <ImageView android:id="@+id/call_hotline"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/gome_icon_usercenter_call"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <View
+        android:layout_marginLeft="@dimen/gome_padding_size_20dp"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/dark_background"/>
+</LinearLayout>

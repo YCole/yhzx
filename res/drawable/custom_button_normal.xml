@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/gome_button_normal_fill_color"/>
+    <corners android:radius="30dp"/>
+    <stroke android:width="1px" android:color="@color/gome_button_normal_border_color"/>
+</shape>

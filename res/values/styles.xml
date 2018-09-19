@@ -1,0 +1,113 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/custom_base_activity_style">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="singlelist_text_appearance">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#E6000000</item>
+    </style>
+    <style name="singlelist_summary_appearance">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#73000000</item>
+    </style>
+
+    <style name="singlelist_summary_high_light_appearance">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#FF2E76FC</item>
+    </style>
+
+    <style name="singlelist_summary_error_appearance">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/gome_base_color_red</item>
+    </style>
+
+    <style name="twolist_first_line_text_appearance">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#E6000000</item>
+    </style>
+    <style name="twolist_second_line_text_appearance">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#73000000</item>
+    </style>
+
+    <style name="card_view_default_appearance">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#4D000000</item>
+    </style>
+    <style name="edit_hint_text_appearance">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#4D000000</item>
+    </style>
+
+    <style name="edit_text_appearance">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/gome_normal_black</item>
+    </style>
+
+    <style name="custom_base_activity_style" parent="@com.gome:style/Theme.GOME.Light">
+        <item name="android:actionBarSize">@dimen/ic_default_actionbar_hight_size</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:textColorPrimary">#3A3A3A</item>
+        <item name="android:actionBarStyle">@style/MyCustomActionbar</item>
+        <item name="android:colorPrimary">@color/ic_default_main_layout_background_color</item>
+        <item name="android:colorPrimaryDark">@color/ic_default_main_layout_background_color</item>
+        <item name="android:navigationBarColor">@color/gome_normal_black</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarColor">@color/light_navigationbar_color</item>
+        <item name="android:navigationBarDividerColor">@color/navigationbar_divider_color</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorEdgeEffect">#000000</item>
+    </style>
+
+    <style name="custom_translucent_style" parent="@style/AppTheme">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowNoDisplay">false</item>
+    </style>
+
+    <style name="custom_toolbar_style" parent="@com.gome:style/Theme.GOME.Light">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/light_navigationbar_color</item>
+        <!--item name="android:navigationBarDividerColor">@color/navigationbar_divider_color</item-->
+    </style>
+
+    <style name="MyCustomActionbar" parent="@android:style/Widget.Material.Light.ActionBar">
+        <item name="android:contentInsetStart">0dp</item>
+        <item name="android:contentInsetEnd">0dp</item>
+    </style>
+
+    <style name="card_view_textSize_highlight_appearance">
+        <item name="android:textSize">@dimen/gome_padding_size_20dp</item>
+        <item name="android:textColor">#E5000000</item>
+    </style>
+    <style name="card_view_blue_highlight_appearance">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#E52E76FC</item>
+    </style>
+    <style name="card_view_summary_default_appearance">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#73000000</item>
+    </style>
+
+    <style name="edit_text_highlight_appearance">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/gome_base_color_red</item>
+    </style>
+
+    <style name="gome_body02_pop_textAppearance">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#73000000</item>
+    </style>
+    <style name="gome_body02_pop_balck_textAppearance">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/gome_normal_black</item>
+    </style>
+
+    <style name="GomeActivityAnimationStyle">
+        <item name="android:activityOpenEnterAnimation">@anim/gome_activity_open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/gome_activity_open_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/gome_activity_close_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/gome_activity_close_exit</item>
+    </style>
+</resources>

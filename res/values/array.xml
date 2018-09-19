@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="center_targets_package_name">
+        <item>com.gome.usercenter</item>
+        <item>com.gome.usercenter</item>
+        <item>com.gome.usercenter</item>
+        <item>com.gome.usercenter</item>
+        <item>com.gome.usercenter</item>
+        <item>com.gome.usercenter</item>
+        <item>com.gome.usercenter</item>
+        <item>com.gome.usercenter</item>
+    </array>
+    <array name="center_targets_class_name">
+        <item>com.gome.usercenter.activity.SelfServiceActivity</item>
+        <item>com.gome.usercenter.activity.FeedbackActivity</item>
+        <item>com.gome.usercenter.activity.HotlineActivity</item>
+        <item>com.gome.usercenter.activity.ExperienceVersionActivity</item>
+        <item>com.gome.usercenter.activity.AfterSaleActivity</item>
+        <item>com.gome.usercenter.activity.ReservationAndMaintenanceActivity</item>
+        <item>com.gome.usercenter.activity.ShowPolicyActivity</item>
+        <item>com.gome.usercenter.activity.GuideLineActivity</item>
+    </array>
+    <array name="center_targets_icon">
+        <item>@drawable/gome_icon_usercenter_service</item>
+        <item>@drawable/gome_icon_usercenter_doubt</item>
+        <item>@drawable/gome_icon_usercenter_hotline</item>
+        <item>@drawable/gome_icon_usercenter_updete</item>
+        <item>@drawable/gome_icon_usercenter_map</item>
+        <item>@drawable/gome_icon_usercenter_caips</item>
+        <item>@drawable/gome_icon_usercenter_policy</item>
+        <item>@drawable/gome_icon_usercenter_help</item>
+    </array>
+    <array name="center_targets_label">
+        <item>@string/self_service</item>
+        <item>@string/feedback</item>
+        <item>@string/service_hotline</item>
+        <item>@string/experience_version_title</item>
+        <item>@string/after_sale_service_station</item>
+        <item>@string/appointment_maintenance_title</item>
+        <item>@string/service_policy</item>
+        <item>@string/usercenter_help</item>
+    </array>
+    <array name="optimization_services_label">
+        <item>@string/boost</item>
+        <item>@string/phone_clean</item>
+        <item>@string/battery_saver</item>
+        <item>@string/boot_up_boost</item>
+    </array>
+    <array name="security_services_label">
+        <item>@string/virus_clean</item>
+        <item>@string/privacy_permissions</item>
+        <item>@string/harassment_intercept</item>
+        <item>@string/exam_phone</item>
+        <item>@string/data_backup</item>
+    </array>
+    <array name="manager_services_label">
+        <item>@string/data_usage</item>
+        <item>@string/network_connection</item>
+        <item>@string/notification_manage</item>
+        <item>@string/empty</item>
+        <item>@string/empty</item>
+        <item>@string/empty</item>
+    </array>
+
+    <array name="optimization_targets_package_name">
+        <item>com.gome.security</item>
+        <item>com.gome.security</item>
+        <item>com.gome.security</item>
+        <item>com.gome.securitymanager</item>
+    </array>
+    <array name="optimization_targets_class_name">
+        <item>com.gome.security.deepcleanlibrary.activity.CleanSpeedActivity</item>
+        <item>com.gome.security.deepcleanlibrary.activity.DeepCleanActivity</item>
+        <item>com.gome.security.powersavelibrary.activity.PowerSaveActivity</item>
+        <item>com.gome.securitymanager.ui.AutoBootAppManageActivity</item>
+    </array>
+
+    <array name="security_targets_package_name">
+        <item>com.gome.security</item>
+        <item>com.gome.securitymanager</item>
+        <item>com.gome.security</item>
+        <item>com.gome.security</item>
+        <item>com.mediatek.backuprestore</item>
+    </array>
+    <array name="security_targets_class_name">
+        <item>com.gome.security.VirusScannerlibrary.activity.VirusScannerActivity</item>
+        <item>com.gome.securitymanager.ui.PermissionControlActivity</item>
+        <item>com.gome.security.telephonylibrary.TelephonyActivity</item>
+        <item>com.gome.security.activity.MainActivity</item>
+        <item>com.mediatek.backuprestore.activities.BackupRestoreMainActivity</item>
+    </array>
+
+    <array name="manager_targets_package_name">
+        <item>com.gome.security</item>
+        <item>com.gome.usercenter</item>
+        <item>com.gome.security</item>
+        <item>@string/empty</item>
+        <item>@string/empty</item>
+        <item>@string/empty</item>
+    </array>
+    <array name="manager_targets_class_name">
+        <item>com.gome.security.datausagemnglibrary.activity.DataUsageActivity</item>
+        <item>com.gome.usercenter.activity.NetworkSelfServiceActivity</item>
+        <item>com.gome.security.softmnglibrary.AppNotificationListActivity</item>
+        <item>@string/empty</item>
+        <item>@string/empty</item>
+        <item>@string/empty</item>
+    </array>
+
+    <array name="all_feedbacks">
+        <item>@string/default_feedback_reboot</item>
+        <item>@string/default_feedback_cant_power_on</item>
+        <item>@string/default_feedback_wlan</item>
+        <item>@string/default_feedback_performance</item>
+        <item>@string/default_feedback_data</item>
+        <item>@string/default_feedback_volume_low</item>
+        <item>@string/default_feedback_charge_slow</item>
+        <item>@string/default_feedback_install_fail</item>
+    </array>
+
+    <array name="all_feedbacks_detail">
+        <item>@string/default_feedback_reboot_detail</item>
+        <item>@string/default_feedback_cant_power_on_detail</item>
+        <item>@string/default_feedback_wlan_detail</item>
+        <item>@string/default_feedback_performance_detail</item>
+        <item>@string/default_feedback_data_detail</item>
+        <item>@string/default_feedback_volume_low_detail</item>
+        <item>@string/default_feedback_charge_slow_detail</item>
+        <item>@string/default_feedback_install_fail_detail</item>
+    </array>
+
+    <array name="machine_information">
+        <item>"U1"</item>
+        <item>"U2"</item>
+        <item>"K1"</item>
+        <item>"K2"</item>
+        <item>"K3"</item>
+    </array>
+
+    <array name="maintenance_service_type">
+        <item>@string/service_type_item1</item>
+        <item>@string/service_type_item2</item>
+        <item>@string/service_type_item3</item>
+    </array>
+
+    <array name="my_feedbacks">
+        <item>"手机黑屏"</item>
+        <item>"相机闪退打开速度过慢"</item>
+    </array>
+
+    <array name="feedbacks_module">
+        <item>@string/string_module_crash</item>
+        <item>@string/string_module_flash_back</item>
+        <item>@string/string_module_performance</item>
+        <item>@string/string_module_consume_power</item>
+        <item>@string/string_module_signal</item>
+        <item>@string/string_module_camera</item>
+        <item>@string/string_module_call</item>
+        <item>@string/string_module_others</item>
+    </array>
+
+    <array name="reserve_time">
+        <item>"08:00-10:00"</item>
+        <item>"10:00-12:00"</item>
+        <item>"12:00-14:00"</item>
+        <item>"14:00-16:00"</item>
+        <item>"16:00-18:00"</item>
+    </array>
+    
+    <array name="issue_shortcuts">
+        <item>@string/issue_network_unavailable</item>
+        <item>@string/issue_mobile_signal</item>
+        <item>@string/issue_machine_boot</item>
+        <item>@string/issue_system_crash</item>
+        <item>@string/issue_display_error</item>
+        <item>@string/issue_call_exception</item>
+        <item>@string/issue_system_halt_auto</item>
+        <item>@string/issue_unrecognize_sim</item>
+        <item>@string/issue_touch_screen</item>
+    </array>
+    
+    <string-array name="guide_line_title">
+        <item>@string/system_ui</item>
+        <item>@string/facial_recognition</item>
+        <item>@string/safe_mode</item>
+        <item>@string/my_keychain</item>
+        <item>@string/app_lock</item>
+    </string-array>
+
+    <array name="drawable_resources">
+        <item>@drawable/gome_icon_launcher_settings</item>
+        <item>@drawable/gome_icon_launcher_face</item>
+        <item>@drawable/gome_icon_launcher_safespace</item>
+        <item>@drawable/gome_icon_launcher_recordcopy</item>
+        <item>@drawable/gome_icon_launcher_applock</item>
+    </array>
+
+        <string-array name="system_ui_item">
+        <item>@string/open_notification_center</item>
+        <item>@string/hide_actionbar</item>
+        <item>@string/back_status_bar_top</item>
+    </string-array>
+
+    <string-array name="facial_recognition_item">
+        <item>@string/face_input</item>
+        <item>@string/facical_unlock</item>
+        <item>@string/face_me</item>
+    </string-array>
+
+    <string-array name="safe_mode_item">
+        <item>@string/feature_introduction</item>
+        <item>@string/turn_on_safe_mode</item>
+        <item>@string/enter_voiceprint</item>
+        <item>@string/voice_lock</item>
+        <item>@string/double_lock</item>
+    </string-array>
+
+    <string-array name="my_keychain_item">
+        <item>@string/feature_introduction</item>
+        <item>@string/login_app</item>
+        <item>@string/generate_password</item>
+        <item>@string/copy_account_password</item>
+        <item>@string/new_username_password</item>
+        <item>@string/disorder_password</item>
+        <item>@string/backup_and_restore</item>
+    </string-array>
+
+    <string-array name="app_lock_item">
+        <item>@string/turn_on_applock</item>
+        <item>@string/use_applock</item>
+    </string-array>
+</resources>

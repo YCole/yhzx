@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/ic_default_main_layout_background_color"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/base_actionBar_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="18dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/gome_sys_icon_back"
+        android:scaleType="centerInside"/>
+
+    <TextView
+        android:id="@+id/base_actionbar_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/base_actionBar_back"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/actionbar_title_color"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/base_actionbar_central_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/actionbar_title_color"
+        android:textSize="15sp"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/base_actionbar_config"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+        android:visibility="gone"
+        android:background="@drawable/ic_settings"/>
+    <!--GMOS-5142-->
+
+</RelativeLayout>

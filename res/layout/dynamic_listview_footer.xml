@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mFooterparent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/mFooter"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/gome_list01_height"
+        android:paddingLeft="@dimen/gome_padding_size_20dp"
+        android:paddingRight="@dimen/gome_padding_size_20dp">
+
+
+        <RelativeLayout android:id="@+id/loading_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:visibility="gone">
+
+            <ProgressBar android:id="@+id/footer_progressbar"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/gome_padding_size_14dp"
+                android:layout_toRightOf="@id/footer_progressbar"
+                android:layout_centerVertical="true"
+                android:textColor="#E6000000"
+                android:textSize="@dimen/gome_body_normal_size"
+                android:text="@string/on_loading"/>
+        </RelativeLayout>
+
+        <TextView android:id="@+id/load_more_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#E6000000"
+            android:textSize="@dimen/gome_body_normal_size"
+            android:layout_gravity="center"
+            android:text="@string/load_more_available"/>
+
+        <TextView android:id="@+id/no_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/gome_body_normal_size"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</LinearLayout>

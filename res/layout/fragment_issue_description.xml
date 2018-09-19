@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <ScrollView android:id="@+id/scroll_view"
+        android:paddingLeft="@dimen/gome_padding_size_20dp"
+        android:paddingRight="@dimen/gome_padding_size_20dp"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/gome_padding_size_60dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/issue_decription_height"
+                android:layout_marginBottom="@dimen/gome_padding_size_5dp"
+                android:layout_marginTop="@dimen/gome_padding_size_20dp">
+
+                <EditText
+                    android:id="@+id/issue_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/shape_edittext_small_radius_bg"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:gravity="left|top"
+                    android:hint="@string/issue_description_hint"
+                    android:maxLength="200"
+                    android:paddingBottom="@dimen/gome_padding_size_14dp"
+                    android:paddingLeft="@dimen/gome_padding_size_20dp"
+                    android:paddingRight="@dimen/gome_padding_size_20dp"
+                    android:paddingTop="@dimen/gome_padding_size_14dp"
+                    android:textAppearance="@style/edit_text_appearance"
+                    android:textColorHint="@color/ic_default_back_text_info_color"
+                    android:textSize="@dimen/gome_custom_text_size_13sp"
+                    android:textCursorDrawable="@drawable/text_cursor_drawable"/>
+
+                <TextView
+                    android:id="@+id/max_length"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:paddingBottom="@dimen/gome_padding_size_14dp"
+                    android:paddingRight="@dimen/gome_padding_size_14dp"
+                    android:paddingTop="@dimen/gome_padding_size_4dp"
+                    android:gravity="center_vertical|right"
+                    android:hint="@string/hint_max_text_200"
+                    android:textColor="@color/ic_default_back_text_info_color"
+                    android:textColorHint="@color/ic_default_back_text_info_color"
+                    android:textSize="@dimen/gome_custom_text_size_12sp"
+                    android:visibility="visible"/>
+            </RelativeLayout>
+
+            <com.gome.usercenter.view.FlowLayoutView
+                android:id="@+id/flow_layout_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/issue_edit"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/gome_padding_size_20dp">
+            </com.gome.usercenter.view.FlowLayoutView>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button android:id="@+id/ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/gome_padding_size_20dp"
+            android:text="@string/commit"/>
+    </LinearLayout>
+
+</RelativeLayout>

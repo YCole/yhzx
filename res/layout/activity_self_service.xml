@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gome.usercenter.activity.SelfServiceActivity"
+    android:background="@color/self_service_bg">
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_marginBottom="@dimen/gome_padding_size_10dp"
+                android:elevation="@dimen/gome_elevation_size"
+                android:background="@color/white">
+
+                <LinearLayout
+                    android:layout_width="106dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/optimization_icon"
+                        android:layout_width="@dimen/self_service_icon_size"
+                        android:layout_height="@dimen/self_service_icon_size"
+                        android:src="@drawable/gome_icon_usercenter_optimization"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/gome_custom_text_size_13sp"
+                        android:gravity="center"
+                        android:textColor="@color/gome_base_color_middle_blue"
+                        android:text="@string/optimization_label"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/gome_padding_size_14dp"
+                    android:layout_marginTop="@dimen/gome_padding_size_14dp"
+                    android:background="@color/gome_padding_fill_bg_f1f3f5"/>
+                <!--
+                <GridView
+                    android:id="@+id/optimization_services"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:numColumns="3"
+                    android:columnWidth="60dp"
+                    android:paddingLeft="@dimen/gome_padding_size_14dp"
+                    android:paddingRight="@dimen/gome_padding_size_14dp"
+                    android:verticalSpacing="@dimen/gome_padding_size_27dp"/>
+                -->
+
+                <com.gome.usercenter.view.FlowLayoutView
+                    android:id="@+id/flow_layout_optimization"
+                    android:layout_marginLeft="@dimen/gome_padding_size_4dp"
+                    android:layout_marginRight="@dimen/gome_padding_size_4dp"
+                    android:layout_marginTop="@dimen/gome_padding_size_13dp"
+                    android:layout_marginBottom="@dimen/gome_padding_size_13dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true">
+                </com.gome.usercenter.view.FlowLayoutView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_marginBottom="@dimen/gome_padding_size_10dp"
+                android:elevation="@dimen/gome_elevation_size"
+                android:background="@color/white">
+
+                <LinearLayout
+                    android:layout_width="106dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/security_icon"
+                        android:layout_width="@dimen/self_service_icon_size"
+                        android:layout_height="@dimen/self_service_icon_size"
+                        android:src="@drawable/gome_icon_usercenter_protectlogo"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/gome_custom_text_size_13sp"
+                        android:gravity="center"
+                        android:textColor="@color/gome_base_color_middle_blue"
+                        android:text="@string/sercurity_label"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/gome_padding_size_14dp"
+                    android:layout_marginTop="@dimen/gome_padding_size_14dp"
+                    android:background="@color/gome_padding_fill_bg_f1f3f5"/>
+
+                <!--
+                <GridView
+                    android:id="@+id/security_services"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:numColumns="3"
+                    android:columnWidth="60dp"
+                    android:layout_marginTop="@dimen/gome_padding_size_26dp"
+                    android:layout_marginBottom="@dimen/gome_padding_size_26dp"
+                    android:paddingLeft="@dimen/gome_padding_size_14dp"
+                    android:paddingRight="@dimen/gome_padding_size_14dp"
+                    android:verticalSpacing="@dimen/gome_padding_size_27dp"/>
+                    -->
+                <com.gome.usercenter.view.FlowLayoutView
+                    android:id="@+id/flow_layout_security"
+                    android:layout_marginLeft="@dimen/gome_padding_size_4dp"
+                    android:layout_marginRight="@dimen/gome_padding_size_4dp"
+                    android:layout_marginTop="@dimen/gome_padding_size_13dp"
+                    android:layout_marginBottom="@dimen/gome_padding_size_13dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true">
+                </com.gome.usercenter.view.FlowLayoutView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:elevation="@dimen/gome_elevation_size"
+                android:background="@color/white">
+
+                <LinearLayout
+                    android:layout_width="106dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/manager_icon"
+                        android:layout_width="@dimen/self_service_icon_size"
+                        android:layout_height="@dimen/self_service_icon_size"
+                        android:src="@drawable/gome_icon_usercenter_manage"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/gome_custom_text_size_13sp"
+                        android:gravity="center"
+                        android:textColor="@color/gome_base_color_middle_blue"
+                        android:text="@string/manager_label"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/gome_padding_size_14dp"
+                    android:layout_marginTop="@dimen/gome_padding_size_14dp"
+                    android:background="@color/gome_padding_fill_bg_f1f3f5"/>
+                <!--
+                <GridView
+                    android:id="@+id/manager_services"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="top"
+                    android:numColumns="3"
+                    android:columnWidth="60dp"
+                    android:layout_marginTop="@dimen/gome_padding_size_26dp"
+                    android:layout_marginBottom="@dimen/gome_padding_size_26dp"
+                    android:paddingLeft="@dimen/gome_padding_size_14dp"
+                    android:paddingRight="@dimen/gome_padding_size_14dp"
+                    android:verticalSpacing="@dimen/gome_padding_size_27dp"/>
+                -->
+                <com.gome.usercenter.view.FlowLayoutView
+                    android:id="@+id/flow_layout_manager"
+                    android:layout_marginLeft="@dimen/gome_padding_size_4dp"
+                    android:layout_marginRight="@dimen/gome_padding_size_4dp"
+                    android:layout_marginTop="@dimen/gome_padding_size_13dp"
+                    android:layout_marginBottom="@dimen/gome_padding_size_13dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true">
+                </com.gome.usercenter.view.FlowLayoutView>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

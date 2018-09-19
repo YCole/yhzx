@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.gome.usercenter.activity.FeedbackActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:background="@color/white"
+        android:layout_marginBottom="@dimen/gome_padding_size_50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.gome.usercenter.view.DynamicListView
+                android:id="@+id/my_feedbacks"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:textColor="@color/gome_first_line_text_color"
+                android:textSize="@dimen/gome_first_line_text_size"
+                android:elevation="@dimen/gome_elevation_size"/>
+
+            <View
+                android:id="@+id/header_border_line"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/gome_padding_size_10dp"
+                android:background="@color/gome_padding_fill_bg_f1f3f5"/>
+
+            <com.gome.usercenter.view.DynamicListView
+                android:id="@+id/all_feedbacks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:textColor="@color/gome_first_line_text_color"
+                android:textSize="@dimen/gome_first_line_text_size"
+                android:elevation="@dimen/gome_elevation_size"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/gome_padding_size_80dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button android:id="@+id/feedback"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/gome_padding_size_40dp"
+            android:layout_margin="@dimen/gome_padding_size_20dp"
+            android:text="@string/feedback_notify"
+            android:textAppearance="@style/singlelist_text_appearance"/>
+    </LinearLayout>
+</RelativeLayout>
+

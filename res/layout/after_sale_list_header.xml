@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/ic_default_main_layout_background_color">
+
+    <ImageView android:id="@+id/my_location"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/gome_padding_size_20dp"
+        android:src="@drawable/map_icon"
+        android:tint="@color/ic_default_main_layout_background_color"
+        android:visibility="gone"
+        android:layout_alignParentStart="true"/>
+
+    <RelativeLayout
+        android:id="@+id/expanded_adress_picker"
+        android:background="@color/ic_default_main_layout_background_color"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView android:id="@+id/my_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#FF2E76FC"
+            android:textSize="13sp"/>
+        <ImageView android:id="@+id/expanded_picker"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_toRightOf="@+id/my_address"
+            android:layout_centerVertical="true"
+            android:src="@drawable/expanded"
+            android:tint="#FF2E76FC"/>
+    </RelativeLayout>
+</RelativeLayout>

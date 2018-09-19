@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/search_view_hight"
+                android:layout_alignParentTop="true"
+                android:background="@color/gome_search_background"
+                android:focusable="true"
+                android:focusableInTouchMode="true">
+
+    <com.gome.usercenter.view.GomeSearchView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.gome.usercenter.view.GomeSearchView>
+</RelativeLayout>

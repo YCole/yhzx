@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mFooterparent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/mFooter"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/btn_card_spread"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/gome_list01_height"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/gome_padding_size_5dp"
+                    android:paddingBottom="@dimen/gome_padding_size_5dp"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:text="@string/cancel"
+                    android:textColor="@color/gome_base_color_red"
+                    android:alpha="@dimen/alpha100"/>
+        </LinearLayout>
+
+</LinearLayout>

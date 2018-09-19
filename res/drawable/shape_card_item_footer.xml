@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:bottomLeftRadius="15dp"
+                android:bottomRightRadius="15dp" />
+            <stroke android:width="0dp"
+                android:color="@color/gome_button_normal_fill_color"/>
+            <solid android:color="@color/gome_button_normal_fill_color" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/gome_padding_size_20dp"
+    android:paddingRight="@dimen/gome_padding_size_20dp"
+    android:paddingTop="@dimen/gome_padding_size_20dp"
+    android:paddingBottom="@dimen/gome_padding_size_20dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:elevation="@dimen/gome_elevation_size"
+    android:background="@color/white">
+
+    <com.gome.usercenter.view.CircleImageView
+        android:id="@+id/user_image"
+        android:layout_width="@dimen/gome_padding_size_60dp"
+        android:layout_height="@dimen/gome_padding_size_60dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/gome_icon_usercenter_person"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingTop="@dimen/gome_padding_size_20dp"
+        android:orientation="vertical">
+        <TextView android:id="@+id/account_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/gome_first_line_text_color"
+            android:text="@string/gome_account_title"
+            android:textSize="@dimen/gome_title_normal_size"/>
+
+        <TextView android:id="@+id/account_summary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/gome_account_second_line_text_color"
+            android:text="@string/gome_accout_summary"
+            android:textSize="@dimen/gome_custom_text_size_13sp"/>
+    </LinearLayout>
+
+</LinearLayout>

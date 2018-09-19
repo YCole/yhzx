@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/gome_issue_grid_item_height"
+          android:gravity="center"
+          android:paddingTop="@dimen/gome_padding_size_5dp"
+          android:paddingBottom="@dimen/gome_padding_size_5dp"
+          android:textSize="@dimen/gome_first_line_text_size"
+          android:textColor="@color/gome_second_line_text_color"
+          android:background="@drawable/unselected_bg"/>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/preference_background_selector"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/gome_padding_size_20dp"
+        android:paddingRight="@dimen/gome_padding_size_14dp"
+        android:paddingTop="@dimen/gome_padding_size_14dp"
+        android:paddingBottom="@dimen/gome_padding_size_14dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/singlelist_text_appearance"/>
+            <com.gome.usercenter.view.DrawableTextView android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:drawableLeft="@drawable/gome_sys_ic_location"
+                android:drawablePadding="@dimen/gome_padding_size_2.8dp"
+                app:drawableLeftWidth="@dimen/gome_list_tiny_icon_size"
+                app:drawableLeftHeight="@dimen/gome_list_tiny_icon_size"
+                android:textAppearance="@style/singlelist_summary_appearance"/>
+            <com.gome.usercenter.view.DrawableTextView android:id="@+id/tel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/gome_sys_ic_phone"
+                android:drawablePadding="@dimen/gome_padding_size_2.8dp"
+                app:drawableLeftWidth="@dimen/gome_list_tiny_icon_size"
+                app:drawableLeftHeight="@dimen/gome_list_tiny_icon_size"
+                android:textAppearance="@style/singlelist_summary_appearance"/>
+        </LinearLayout>
+        <RadioButton android:id="@+id/radio_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:padding="@dimen/gome_padding_size_5dp"/>
+    </LinearLayout>
+    <View
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/gome_padding_size_20dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/gome_divider_height"
+        android:background="@color/dark_background"/>
+
+</RelativeLayout>

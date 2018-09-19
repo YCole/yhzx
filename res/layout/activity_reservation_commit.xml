@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView android:id="@+id/scroll_view"
+            android:scrollbars="none"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.gome.usercenter.view.ReservationListItem
+                    android:id="@+id/user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/gome_list01_height"
+                    android:gravity="center_vertical"
+                    android:paddingRight="@dimen/gome_padding_size_14dp"
+                    android:paddingLeft="@dimen/gome_padding_size_20dp"
+                    app:show_more="false"
+                    app:title="@string/user_name"
+                    app:summary="@string/default_summary_user_name"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="@dimen/gome_padding_size_20dp"
+                    android:background="#1F000000"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"/>
+                <com.gome.usercenter.view.ReservationListItem
+                    android:id="@+id/mobile_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/gome_list01_height"
+                    android:gravity="center_vertical"
+                    android:paddingRight="@dimen/gome_padding_size_14dp"
+                    android:paddingLeft="@dimen/gome_padding_size_20dp"
+                    app:show_more="false"
+                    app:title="@string/mobile_number"
+                    app:summary="@string/default_summary_mobile_number"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="@dimen/gome_padding_size_20dp"
+                    android:background="#1F000000"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"/>
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button android:id="@+id/commit_btn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/gome_padding_size_40dp"
+                android:layout_margin="@dimen/gome_padding_size_20dp"
+                android:text="@string/commit"
+                android:textAppearance="@style/singlelist_text_appearance"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,338 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">用户中心</string>
+    <string name="gome_account_title">帐户登录/注册</string>
+    <string name="gome_accout_summary">注册登录国美帐户可享受更多权益</string>
+    <string name="denied_required_permission">"权限被拒绝。您可以依次选择 \"设置\"&gt;\"应用\" 来更改权限。"</string>
+    <string name="default_label">未知</string>
+    <string name="self_service">自助服务</string>
+    <string name="feedback">问题反馈</string>
+    <string name="my_feedback">我的反馈</string>
+    <string name="user_policy">用户协议</string>
+    <string name="service_hotline">服务热线</string>
+    <string name="experience_version_request">体验版本申请</string>
+    <string name="experience_version_title">体验版本申请</string>
+    <string name="experience_version_resultt">当前没有可申请体验版本</string>
+    <string name="after_sale_service_station">售后网点查询</string>
+    <string name="reservation_service">预约服务</string>
+    <string name="service_policy">服务政策</string>
+    <string name="usercenter_help">用机指南</string>
+    <string name="maintenance_progress">服务进度查询</string>
+    <string name="optimization_label">性能优化</string>
+    <string name="sercurity_label">安全工具</string>
+    <string name="manager_label">手机管理</string>
+    <string name="boost">手机太卡</string>
+    <string name="junk_clean">垃圾清理</string>
+    <string name="phone_clean">深度清理</string>
+    <string name="battery_saver">电池管理</string>
+    <string name="boot_up_boost">开机加速</string>
+    <string name="virus_clean">手机杀毒</string>
+    <string name="network_control">联网管理</string>
+    <string name="privacy_permissions">隐私保护</string>
+    <string name="harassment_intercept">骚扰拦截</string>
+    <string name="exam_phone">手机体检</string>
+    <string name="data_backup">数据备份</string>
+    <string name="data_usage">流量监控</string>
+    <string name="network_connection">网络连接</string>
+    <string name="notification_manage">通知管理</string>
+    <string name="hotline_title">400-898-8666 国美手机售后客服</string>
+    <string name="hotline_summary">工作时间 09:00-18:00</string>
+    <string name="only_call_by_landline">工作时间 9:00-18:00( 仅限座机拨打 )</string>
+    <string name="experience_version_and_note">体验版本申请及注意事项</string>
+    <string name="experience_version">体验版本</string>
+    <string name="experience_version_introduce">升级概要\nGOME_GMOS2.0_M00_S02\n512MB\n\n本次更新：\n对系统稳定性和功耗表现进行了
+        特定优化</string>
+    <string name="update_experience_version">更新注意事项</string>
+    <string name="update_experience_version_operation">1. 本次升级不会删除您的用户数据，但仍建议您在升级前做好数据备份。\n2. 升级过程
+        大概需要20分钟，请在点击“升级”按钮后耐心等待，切勿按压电源键、音量键等，避免升级收到干扰。升级期间手机将自动重启。\n3. 如果您在使用过程
+        中遇到任何问题，请访问“用户中心”中的问题反馈或拨打官方服务热线400-898-8666寻求支持。\n</string>
+    <string name="roll_back_old_version">如何切回稳定版本</string>
+    <string name="roll_back_old_version_operation">操作说明操作说明操作说明操作说明操作说明操作说明操作说明操作说明操作说明操作说明操作说明操作说明操作说明操作说明操作说明操作说明操作说明操作说明操作说明操作说明操作说明操作说明操作说明操作说明操作说明操作说明操作说明操作说明操作说明操作说明操作说明操作说明操作说明操作说明操作说明操作说明操作说明操作说明操作说明操作说明</string>
+    <string name="agree_disclaimer">已阅读并理解</string>
+    <string name="disclaimer">免责声明</string>
+    <string name="disclaimer_unavailabled">免责声明不可用</string>
+    <string name="request_experience">申请</string>
+    <string name="request_processing">正在加载，请稍后</string>
+    <string name="request_experience_success">已申请</string>
+    <string name="request_experience_failed">未申请</string>
+    <string name="load_more_available">更多</string>
+    <string name="on_loading">正在加载</string>
+    <string name="no_more_data">没有更多</string>
+    <string name="all_feedbacks">已有反馈</string>
+    <string name="my_feedback">我的反馈</string>
+    <string name="user_agreement">用户协议</string>
+    <string name="ok">同意</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确认</string>
+    <string name="proceedTo">前往</string>
+    <string name="user_agreement_detail">1.	“用户中心”为您提供终端售后服务，需使用存储，您的位置、电话和本地帐户信息权限（其中存储和您的位置权限仅在您选择中国时需要）。\n2. 本应用使用过程中，需连接网络并收集和处理以下信息\n&#160;&#160;&#160;&#160;&#8226;&#160;设备信息，包括IMEI、IMSI、MEID、SN、机型信息;\n&#160;&#160;&#160;&#160;&#8226;&#160;您向我们提交的姓名、地址、电话、邮箱。\n&#160;&#160;&#160;&#160;上述数据将传输至中国服务器。您可以退出本软件来终止数据的收集和上传。\n3. 本应用内容中的自助服务（中国），使用过程中将调用手机管家和备份的功能。</string>
+    <string name="user_agreement_decription">点击“同意”，即表示您同意上述内容及<xliff:g id="LINK_BEGIN_0">LINK_BEGIN</xliff:g>用户中心用户协议<xliff:g id="LINK_END_1">LINK_END</xliff:g>和<xliff:g id="LINK_BEGIN_0">LINK_BEGIN</xliff:g>国美隐私政策<xliff:g id="LINK_END_1">LINK_END</xliff:g>。</string>
+    <string name="user_agreement_title">用户中心用户协议</string>
+    <string name="gome_privacy_policy_title">国美隐私协议</string>
+    <string name="user_center_help_title">帮助</string>
+    <string name="feedback_notify">我要反馈</string>
+    <string name="feedback_notify_server">请反馈您的问题 *</string>
+    <string name="feedback_issue_detail">请具体描述在什么情况下，经过什么操作，遇到什么问题，输入内容不超过500字。</string>
+    <string name="feedback_user_contact">请留下您的手机号或邮箱</string>
+    <string name="contact_us">如有需要，可拨打国美手机售后客服热线:</string>
+    <string name="contact_us_tel">400&#8211;898&#8211;8666</string>
+    <string name="feedback_submit">提交</string>
+    <string name="feedback_module">选择模块</string>
+    <string name="mode1">模块1</string>
+    <string name="mode2">模块2</string>
+    <string name="mode3">模块3</string>
+    <string name="mode4">模块4</string>
+	
+    <string name="string_wlan_service_title">手机连接不上WLAN可能有以下情况：</string>
+    <string name="string_wlan_service_tip1">1.WLAN关闭。点击\"设置\"&gt;\"WLAN\"开启WLAN，选择您要连接的WLAN输入密码建立连接。</string>
+    <string name="string_wlan_service_tip2">2.如果修改过路由器密码，请点击被修改的WLAN，选择忽略该WLAN，再点击此WLAN并输入密码重新连接。</string>
+    <string name="string_wlan_service_tip3">3.如果其他手机能连上，而您的手机无法连接，请关闭WLAN并重新打开，或者重启手机。</string>
+
+    <string name="string_mobile_data_service_title">手机连接不上移动网络可能有以下情况：</string>
+    <string name="string_mobile_data_service_tip1">1.移动网络没有开启。请到\"设置\"&gt;\"更多\"&gt;\"移动网络\"中开启\"移动网络\";如果不在国内，还需要同时开启\"数据漫游\"(建议您向运营商查询漫游收费标准后在开启)。</string>
+    <string name="string_mobile_data_service_tip2">2.没有开通手机上网功能。请与运营商联系开通GPRS上网。</string>
+    <string name="string_mobile_data_service_tip3">3.手机欠费。在缴费之后重启手机即可。</string>
+    <string name="string_mobile_data_service_tip4">4.手机软件冲突或者其他原因。请尝试重启手机。</string>
+
+    <string name="string_no_sim_card_found">没有检测到SIM卡，请确认是否有插入</string>
+
+    <string name="alert_network_unavaiable">网路不可用或网络状况不佳</string>
+    <string name="dialog_title_no_network">网络不可用，请检查网络连接</string>
+    <string name="txt_set_network">设置</string>
+    <string name="txt_set_network_cancel">取消</string>
+
+    <string name="self_network">网络连接</string>
+    <string name="self_data_activity">移动网络连接</string>
+    <string name="self_wlan_activity">WLAN网络连接</string>
+    <string name="to_setting">前往设置</string>
+    <string name="add_picture">添加图片</string>
+
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_allow">允许</string>
+    <string name="dialog_forbidden">禁止</string>
+    <string name="dialog_login_alert_feedback_your_suggestion">提交反馈前，需先登录国美帐户</string>
+    <string name="dialog_login_alert_apply_for_experience">需先登录您的国美帐户</string>
+    <string name="dialog_login_alert_apply_for_reservation">申请预约前，需先登录国美帐户</string>
+    <string name="dialog_message_cancel_reservation">是否取消预约？</string>
+
+    <string name="toast_input_infomation_is_null">请输入正确的信息</string>
+    <string name="toast_input_infomation_correct_format">请输入正确的手机号码</string>
+    <string name="toast_input_phone_or_email_correct_format">请输入正确的手机号码或邮箱</string>
+
+    <string name="telephone">电话</string>
+    <string name="address">地址</string>
+    <string name="maintenance_margin">维修范围</string>
+    <string name="business_hours">营业时间</string>
+    <string name="reserve_maintenance">预约维修</string>
+    <string name="module_number">型号</string>
+    <string name="reserve_station">预约网点</string>
+    <string name="reserve_data">预约时间</string>
+    <string name="issue_description">故障现象</string>
+    <string name="user_name">姓名</string>
+    <string name="mobile_number">手机号</string>
+    <string name="apply_reservation">申请预约服务</string>
+    <string name="my_reservation">我的预约</string>
+    <string name="machine_information">机器信息</string>
+    <string name="choose_station">维修网点</string>
+    <string name="arrival_time">到店日期</string>
+    <string name="failure_issue">故障描述</string>
+    <string name="personal_information">个人信息</string>
+    <string name="distract_citypicker">选择地区</string>
+    <string name="next_step">下一步</string>
+    <string name="commit">提交</string>
+    <string name="distract_belong">所在地区</string>
+    <string name="reservation_service_type">服务类型</string>
+    <string name="maintenance_mode">送修方式</string>
+    <string name="reserve_timepicker">到店日期</string>
+    <string name="time_picker_date_format">%1$d年%2$d日</string>
+    <string name="reserve_username_hint">请输入姓名</string>
+    <string name="reserve_mobile_number_hint">请输入手机号码</string>
+    <string name="card_title_reservation_number">预约单号</string>
+    <string name="card_title_reservation_time">预约时间</string>
+    <string name="card_title_reservation_station">预约网点</string>
+    <string name="card_title_model_number">型号</string>
+    <string name="card_title_user_name">姓名</string>
+    <string name="card_title_mobile_number">手机号</string>
+    <string name="card_title_issue_description">故障描述</string>
+    <string name="card_title_maintenance_number">维修单号</string>
+    <string name="card_title_current_state">当前状态</string>
+    <string name="card_title_processing_time">受理时间</string>
+    <string name="card_title_return_machine_time">返机时间</string>
+    <string name="card_title_money_amount">金额</string>
+
+    <string name="fold_card_view">折叠</string>
+    <string name="expand_card_view">展开</string>
+    <string name="maintenance_card_title">维修进行</string>
+    <string name="reservation_card_title">提交成功</string>
+    <string name="history_card_title">历史服务</string>
+    <string name="commit_success">预约提交成功</string>
+    <string name="commit_dlg_message">正在提交到服务器</string>
+    <string name="search_hint">输入手机号查询进度</string>
+    <string name="reserve_title">申请预约服务</string>
+    <string name="progress_dialog_loading">正在加载，请稍后</string>
+    <string name="progress_dialog_locating">定位中，请稍后</string>
+
+    <string name="issue_network_unavailable">无法上网</string>
+    <string name="issue_mobile_signal">信号不良</string>
+    <string name="issue_machine_boot">无法开机</string>
+    <string name="issue_system_crash">系统死机</string>
+    <string name="issue_display_error">显示异常</string>
+    <string name="issue_call_exception">通话异常</string>
+    <string name="issue_system_halt_auto">自动关机</string>
+    <string name="issue_unrecognize_sim">不识别卡</string>
+    <string name="issue_touch_screen">触摸不良</string>
+
+    <string name="string_module_crash">死机</string>
+    <string name="string_module_flash_back">闪退</string>
+    <string name="string_module_performance">性能</string>
+    <string name="string_module_consume_power">耗电</string>
+    <string name="string_module_signal">信号</string>
+    <string name="string_module_camera">相机</string>
+    <string name="string_module_call">通话</string>
+    <string name="string_module_others">其它</string>
+
+    <string name="issue_desciption_fragment_label">故障描述</string>
+    <string name="issue_description_hint">可在此处输入详细描述，输入内容不能超过200字</string>
+    <string name="default_feedback_reboot">手机自动关机、重启</string>
+    <string name="default_feedback_cant_power_on">无法开机</string>
+    <string name="default_feedback_wlan">WLAN连接失败</string>
+    <string name="default_feedback_performance">手机运行慢</string>
+    <string name="default_feedback_data">打开数据业务开关后仍然无法上网</string>
+    <string name="default_feedback_volume_low">手机通话声音小的解决方法</string>
+    <string name="default_feedback_charge_slow">手机充电过慢</string>
+    <string name="default_feedback_install_fail">应用程序安装失败</string>
+
+    <string name="default_feedback_reboot_detail">1、一般第三方安全类软件、杀毒软件容易导致数据冲突，卸载这类软件后重启，观察手机是否正常。\n2、建议备份重要数据后将手机恢复出厂设置，不恢复数据的前提下使用一段时间看手机是否正常。\n\n若以上方法均无效，建议您联系客服或者到售后网点检测。
+    </string>
+    <string name="default_feedback_cant_power_on_detail">1、长按电源键10秒以上，尝试强制重启。\n2、充电半个小时后尝试重新开机，因电量过低引起的无法开机，刚插入充电器时可能不亮屏，但呼吸灯会闪烁。\n\n若以上方法均无效，建议您联系客服或者到售后网点检测。
+</string>
+    <string name="default_feedback_wlan_detail">1、如果WLAN热点为加密热点，请输入正确的密码，并区分大小写。\n2、请将手机置于WLAN热点的有效距离内，距离太远可能会导致网络自动断开连接。\n3、WLAN可能已达到最大连接数，请尝试连接其它的可用网络。\n4、某些公共WLAN热点可能需要在网页端登录，可以咨询WLAN热点提供方。\n5、请检查无线路由器是否开启MAC地址过滤功能。可以将手机的MAC地址设置为可信任的MAC地址。\n\n若以上方法均无效，建议您联系客服或者到售后网点检测。
+</string>
+    <string name="default_feedback_performance_detail">1、进入手机管家，会自动开启一键优化。\n2、进入手机管家界面，点击清理加速，\n3、进入手机管家->清理加速->深度清理，根据屏幕提示清理手机中的垃圾文件。\n4、重启手机。\n\n若以上方法均无效，建议您联系客服或者到售后网点检测。
+</string>
+    <string name="default_feedback_data_detail">1、请确认手机是否插入可正确的SIM/USIM卡。不同制式的手机支持的SIM/USIM不一样，具体请咨询手机提供商。\n2、请检查是否已开通了上网业务。请联系运营商开通上网功能。\n3、请检查是否已欠费。运营商可能会停止向已欠费的用户提供上网服务。\n4、请查看是否设置了流量显示，若设置了流量限制，当使用的流量达到限制值后，无法使用数据。\n5、欠费充值后可能会导致无法使用上网业务，请重启手机。\n\n若以上方法均无效，建议您联系客服或者到售后网点检测。
+</string>
+    <string name="default_feedback_volume_low_detail">1、在通话过程中，使用音量上键将声音调大。\n2、查看贴膜、皮套等是否有遮挡住听筒，如果有建议去除或更换。\n3、更换时间、地点、联系人排除是否因网络问题而导致。\n\n若以上方法均无效，建议您联系客服或者到售后网点检测
+</string>
+    <string name="default_feedback_charge_slow_detail">1、如果充电长时间未充满，请先确认是否使用的原装充电器给手机充电、是否存在充电接口接触不良等现象。\n2、建议在充电时不要长时间使用手机，不要将手机置放在散热较差的环境中。\n3、若使用输出电流较小的电源充电，充电会比较慢，建议用原装充电器或者更换输出电流稍大的电源充电。\n\n若以上方法均无效，建议您联系客服或者到售后网点检测。
+</string>
+    <string name="default_feedback_install_fail_detail">1、手机仅支持APK格式的第三方应用，请检查格式是否正确。\n2、下载的第三方应用程序可能机不兼容，建议尝试下载其它类似应用。\n3、需要确认是否已经信任该程序来源。进入设置->高级设置->安全，选择未知来源，然后重新安装该应用。\n\n若以上方法均无效，建议您联系客服或者到售后网点检测。
+</string>
+
+    <string name="reservation_cancel">取消预约</string>
+    <string name="contact_customer_service">联系客服</string>
+
+    <string name="experience_applying">正在申请，请稍后</string>
+    <string name="choose_module">选择模块</string>
+    <string name="choose_finish">完成</string>
+    <string name="choose_tip">请选择是以下哪个模块出现问题(单选)</string>
+    <string name="history_time">提交时间: </string>
+    <string name="solution">解决办法: </string>
+
+<string name="edit_completed">已填</string>
+    <string name="entered_error">未输入或输入有误</string>
+    <string name="edit_not_null">输入不能为空</string>
+    
+    <string name="default_summary_machine_information">型号</string>
+    <string name="default_summary_region">省份</string>
+    <string name="default_summary_station">请选择网点名称</string>
+    <string name="default_summary_reservation_time">选择日期及时间</string>
+    <string name="default_summary_issue_description">请填写</string>
+    <string name="default_summary_service_type">选择类型</string>
+    <string name="default_summary_user_name">请输入姓名</string>
+    <string name="default_summary_mobile_number">请输入手机号</string>
+
+    <string name="error_unselect">未选择</string>
+    <string name="check_not_null_message">信息填写错误，*为必填内容</string>
+    <string name="maintenance_mode_content">到店维修</string>
+
+    <string name="service_type_item1">维修</string>
+    <string name="service_type_item2">退货</string>
+    <string name="service_type_item3">换货</string>
+
+    <string name="select_district_required">请先选择所在地区</string>
+    
+    <string name="dialog_permit">确认</string>
+    <string name="dialog_forbid">取消</string>
+    <string name="dialog_yes">是</string>
+    <string name="dialog_no">否</string>
+    <string name="dialog_location_message">是否打开GPS来获取您的位置?</string>
+    <string name="unknow">--</string>
+    <string name="unknow_address">无网络连接，请检查网络设置</string>
+    <string name="progress_feedback_to_server">正在提交，请稍后</string>
+    <string name="suggestion_send_fail">发送失败</string>
+    <string name="server_not_available">服务器不可用!</string>
+    <string name="refreshing_data">正在加载，请稍后</string>
+    <string name="network_data_unaccessable">无法获取数据，请重试</string>
+    <string name="network_timeout">网络超时</string>
+    <string name="no_data_query">沒有可用数据</string>
+    <string name="appointment_cancel_success">预约取消成功</string>
+    <string name="appointment_cancel_failed">预约取消失败</string>
+
+    <string name="appointment_maintenance_title">预约及维修进度</string>
+
+    <string name="toast_out_of_max_length">您的输入字数已达到限制</string>
+    <string name="experience_version_introduce_summary">升级概要:</string>
+    <string name="experience_version_introduce_size">更新包大小:</string>
+    <string name="experience_version_introduce_description">本次更新:</string>
+    <string name="toast_ensure_your_network">无法获取地址数据，请确认网络连接可用</string>
+    <string name="toast_no_maintenance_center_data">该地区暂无售后网点</string>
+
+    <string name="string_service_type">服务类型</string>
+    <string name="location_failed_message4">定位失败，请检查设备网络是否通畅,然后重试</string>
+    <string name="location_failed_message13">定位失败，建议开启设备的WIFI模块，并将设备中插入一张可以正常工作的SIM卡，或者检查GPS是否开启,然后重试</string>
+    <string name="location_failed_message18">定位失败，建议手机关闭飞行模式，并打开WIFI开关,然后重试</string>
+    <string name="location_failed_message19">定位失败，建议手机插上sim卡，打开WIFI开关,然后重试</string>
+    <string name="location_failed_default_message">定位失败</string>
+
+    <string name="reservation_maintenance_no_maintenance">暂无预约及维修进度</string>
+    <string name="reservation_maintenance_no_information">未查询到相关信息</string>
+    <string name="reservation_maintenance_gome_account_notification">登录国美帐户后\n可以申请预约服务和查看我的维修进度</string>
+    <string name="gome_account_token_invalid">登录已失效，请重新登录</string>
+    <string name="experience_version_apply_success_title">申请成功</string>
+    <string name="experience_version_apply_success_message">申请成功！请在设置>系统更新中更新当前版本。</string>
+    <string name="system_update">系统更新</string>
+    <string name="url_dialog_loading">正在加载，请稍后</string>
+    <string name="nick_name_is_null">未设置昵称</string>
+
+    <string name="choose_phone_number_title">选择电话号码</string>
+    <string name="string_toast_picture_out_of_size">图片大小不能超过10MB</string>
+    <string name="string_picture_add_notice">图片(选填，请提供问题截图)</string>
+
+    <string name="account_progress_dialog_loading">正在加载，请稍后</string>
+    <string name="account_progress_dialog_error">无法连接到服务器</string>
+    <string name="no_text">No_text_show</string>
+
+    <string name="guideline_title">用机指南</string>
+    <string name="guide_line_title">用机指南</string>
+
+    <string name="system_ui">System UI</string>
+    <string name="open_notification_center">打开控制/通知中心</string>
+    <string name="hide_actionbar">隐藏导航键/导航手势</string>
+    <string name="back_status_bar_top">点击状态栏界面返回顶部</string>
+
+    <string name="facial_recognition">面部识别</string>
+    <string name="face_input">人脸录入</string>
+    <string name="facical_unlock">面部解锁</string>
+    <string name="face_me">Face-Me功能</string>
+
+    <string name="safe_mode">安全模式</string>
+    <string name="feature_introduction">功能介绍</string>
+    <string name="turn_on_safe_mode">开启安全模式</string>
+    <string name="enter_voiceprint">录入声纹</string>
+    <string name="voice_lock">安全模式进入方式1：声音锁</string>
+    <string name="double_lock">安全模式进入方式2：双重锁（声音+人脸）</string>
+
+    <string name="my_keychain">钥匙串</string>
+    <string name="login_app">登录应用</string>
+    <string name="generate_password">生成密码</string>
+    <string name="copy_account_password">一键复制粘贴帐号和密码</string>
+    <string name="new_username_password">新建用户名和密码</string>
+    <string name="disorder_password">密码乱序</string>
+    <string name="backup_and_restore">备份与恢复</string>
+
+    <string name="app_lock">应用锁</string>
+    <string name="turn_on_applock">开启应用锁</string>
+    <string name="use_applock">使用应用锁</string>
+
+</resources>

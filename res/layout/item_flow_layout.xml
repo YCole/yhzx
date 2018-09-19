@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/gome_flow_layout_item_height"
+    android:gravity="center"
+    android:paddingLeft="@dimen/gome_padding_size_22dp"
+    android:paddingRight="@dimen/gome_padding_size_22dp"
+    android:layout_margin="@dimen/gome_padding_size_5dp"
+    android:textSize="@dimen/gome_custom_text_size_13sp"
+    android:textColor="@color/ic_default_back_text_info_color"
+    android:background="@drawable/unselected_bg"/>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ScrollView android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/card_container"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/gome_padding_size_20dp"
+                android:paddingLeft="@dimen/gome_padding_size_20dp"
+                android:paddingRight="@dimen/gome_padding_size_20dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="@string/app_name"
+                    android:textAppearance="@style/singlelist_text_appearance"/>
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_marginTop="@dimen/gome_padding_size_5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="@string/app_name"
+                    android:textAppearance="@style/singlelist_summary_appearance"/>
+
+                <TextView
+                    android:id="@+id/content"
+                    android:layout_marginTop="@dimen/gome_padding_size_10dp"
+                    android:lineSpacingExtra="@dimen/gome_padding_size_2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="@string/app_name"
+                    android:textAppearance="@style/singlelist_summary_appearance"/>
+
+                    <ImageView
+                        android:id="@+id/image"
+                        android:layout_marginTop="@dimen/gome_padding_size_10dp"
+                        android:layout_marginBottom="@dimen/gome_padding_size_10dp"
+                        android:layout_gravity="left"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/gome_padding_size_100dp"
+                        android:scaleType="fitStart"/>
+                </LinearLayout>
+
+            <View
+                android:id="@+id/view_solution"
+                android:background="@color/gome_padding_fill_bg_f1f3f5"
+                android:layout_marginTop="@dimen/gome_padding_size_10dp"
+                android:layout_gravity="left"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/gome_padding_size_10dp"/>
+
+            <LinearLayout
+                android:id="@+id/layout_solution"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/gome_padding_size_20dp"
+                android:paddingLeft="@dimen/gome_padding_size_20dp"
+                android:paddingRight="@dimen/gome_padding_size_20dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/solution_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="@string/solution"
+                    android:textAppearance="@style/singlelist_text_appearance"/>
+
+                <gome.widget.GomeListView
+                    android:layout_marginTop="@dimen/gome_padding_size_20dp"
+                    android:id="@+id/list"
+                    android:divider="@null"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView android:id="@+id/empty_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:visibility="gone"/>
+                <ProgressBar android:id="@+id/progress_bar"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:visibility="gone"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

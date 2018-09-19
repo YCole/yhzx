@@ -1,0 +1,17 @@
+{
+  "resultcode": "200",
+  "results": [
+    {
+      "province": "江苏省",
+      "city": "南京市,苏州市,南通市"
+    },
+    {
+      "province": "浙江省",
+      "city": "杭州市,宁波市,温州市"
+    },
+    {
+      "province": "上海市",
+      "city": "上海市"
+    }
+  ]
+}

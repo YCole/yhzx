@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+	
+    <color name="dark_background">#1F000000</color>
+    <color name="dark_foreground">#BDBDBD</color>	
+
+    <color name="gome_base_color_dark_blue">#FF2E76FC</color>
+    <color name="gome_base_color_middle_blue">#FF3492E6</color>
+    <color name="gome_base_color_light_blue">#FF58CAF2</color>
+    <color name="gome_base_color_green">#FF37CA74</color>
+	
+    <color name="gome_base_color_purple">#FF855CDF</color>
+    <color name="gome_base_color_red">#FFFC3939</color>
+    <color name="gome_base_color_orange">#FFFF9C5F</color>
+    <color name="gome_base_color_yellow">#FFFFD461</color>
+
+    <color name="actionbar_title_color">@color/ic_default_title_text_color</color>
+    <color name="gome_button_border_color">#BFC3C7</color>	
+    <color name="self_service_bg">#F1F3F5</color>
+    <color name="user_center_bg">#F1F3F5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="after_service_header_bg">#3A88FE</color>
+    <color name="gome_actionbar_default_background_color">#EFEFF0</color>
+    <color name="gome_padding_fill_bg_f1f3f5">#F1F3F5</color>
+    <color name="btn_gome_shape_press_color">#FF2E76FC</color>
+    <color name="btn_gome_shape_unpress_color">#FFFCFCFC</color>
+    <color name="btn_gome_shape_no_enable_color">#FFFCFCFC</color>
+    <color name="btn_gome_shape_border_color">#FFBFC3C7</color>
+    <color name="btn_gome_view_border_color">#FF979797</color>
+
+    <color name="btn_gome_text_press_color">#FFFFFF</color>
+    <color name="btn_gome_text_unpress_color">#FF2E76FC</color>
+    <color name="btn_gome_text_disable_color">#4D2E76FC</color>
+
+    <color name="ic_default_main_layout_background_color">@color/ic_default_actionbar_background_color</color>
+    <color name="ic_default_actionbar_background_color">#F1F2F3</color>
+    <color name="ic_default_actionbar_back_btn_background_color">#B3000000</color>
+
+    <color name="ic_default_subtitle_text_color">#0D000000</color>
+    <color name="ic_default_back_text_info_color">#4D000000</color>
+    <color name="ic_default_title_text_color">#CC000000</color>
+
+    <color name="ic_default_hint_text_color">#99FFFFFF</color>
+
+    <color name="color_edittext_backgound">#00FFFFFF</color>
+
+    <color name="gome_blue_light_theme">#FF2E76FC</color>
+    <color name="gome_button_normal_fill_color">#FFFCFCFC</color>
+    <color name="gome_button_pressed_fill_color">#FFF2F2F2</color>
+    <color name="gome_button_normal_border_color">#FFBFC3C7</color>
+    <color name="gome_button_focus_color">#FF2E76FC</color>
+    <color name="gome_button_disable_text_color">#4D2E76FC</color>
+    <color name="gome_disable_text_color">#FF9B9B9B</color>
+    <color name="gome_button_focus_text_color">#FFFFFFFF</color>
+    <color name="gome_normal_black">#FF000000</color>
+
+    <color name="gome_first_line_text_color">#E6000000</color>
+    <color name="gome_second_line_text_color">#73000000</color>
+
+    <color name="gome_divider_color">#1F000000</color>
+
+    <color name="gome_reservation_card_header_bg">#FF37CA74</color>
+    <color name="gome_maintenance_card_header_bg">#FF2E76FC</color>
+    <color name="gome_history_card_header_bg">#9B9B9B</color>
+
+    <color name="gome_search_background">#F3F4F4</color>
+    <color name="fill_gray_color">#73000000</color>
+
+    <color name="action_bar_background">#F1F2F3</color>
+
+    <color name="gome_color_black">#000000</color>
+    <color name="gome_color_contact_tel">#4A90E2</color>
+    <color name="light_navigationbar_color">#FFF2F3F4</color>
+    <color name="navigationbar_divider_color">#26000000</color>
+
+    <color name="action_bar_bottom_line_color">#FFBFC3C7</color>    
+    <color name="onclick_preference_color">#EBEBEB</color>
+    <color name="default_preference_color_select">#ffffff</color>
+    <color name="gome_account_second_line_text_color">#4D000000</color>
+    <color name="ic_deafult_search_text_hint_color">#33000000</color>
+</resources>

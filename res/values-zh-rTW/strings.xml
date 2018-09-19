@@ -1,0 +1,349 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">用戶中心</string>
+    <string name="gome_account_title">帳戶登錄/注冊</string>
+    <string name="gome_accout_summary">注冊登錄國美帳戶可享受更多權益</string>
+    <string name="denied_required_permission">"權限被拒絕。您可以依次選擇 \"設置\"&gt;\"應用\" 來更改權限。"</string>
+    <string name="default_label">未知</string>
+    <string name="self_service">自助服務</string>
+    <string name="feedback">問題反饋</string>
+    <string name="my_feedback">我的反饋</string>
+    <string name="user_policy">用戶協議</string>
+    <string name="service_hotline">服務熱線</string>
+    <string name="experience_version_request">體驗版本申請</string>
+    <string name="experience_version_title">體驗版本申請</string>
+    <string name="experience_version_resultt">當前沒有可申請體驗版本</string>
+    <string name="after_sale_service_station">售後網點查詢</string>
+    <string name="reservation_service">預約服務</string>
+    <string name="service_policy">服務政策</string>
+    <string name="usercenter_help">用機指南</string>
+    <string name="maintenance_progress">服務進度查詢</string>
+    <string name="optimization_label">性能優化</string>
+    <string name="sercurity_label">安全工具</string>
+    <string name="manager_label">手機管理</string>
+    <string name="boost">手機太卡</string>
+    <string name="junk_clean">垃圾清理</string>
+    <string name="phone_clean">深度清理</string>
+    <string name="battery_saver">電池管理</string>
+    <string name="boot_up_boost">開機加速</string>
+    <string name="virus_clean">手機殺毒</string>
+    <string name="network_control">聯網管理</string>
+    <string name="privacy_permissions">隱私保護</string>
+    <string name="harassment_intercept">騷擾攔截</string>
+    <string name="exam_phone">手機體檢</string>
+    <string name="data_backup">數據備份</string>
+    <string name="data_usage">流量監控</string>
+    <string name="network_connection">網絡連接</string>
+    <string name="notification_manage">通知管理</string>
+    <string name="hotline_title">400-898-8666 國美手機售後客服</string>
+    <string name="hotline_summary">工作時間 09:00-18:00</string>
+    <string name="only_call_by_landline">工作時間 9:00-18:00( 僅限座機撥打 )</string>
+    <string name="experience_version_and_note">體驗版本申請及注意事項</string>
+    <string name="experience_version">體驗版本</string>
+    <string name="experience_version_introduce">升級概要\nGOME_GMOS2.0_M00_S02\n512MB\n\n本次更新：\n對系統穩定性和功耗表現進行了
+        特定優化</string>
+    <string name="update_experience_version">更新注意事項</string>
+    <string name="update_experience_version_operation">1. 本次升級不會刪除您的用戶數據，但仍建議您在升級前做好數據備份。\n2. 升級過程
+        大概需要20分鍾，請在點擊“升級”按鈕後耐心等待，切勿按壓電源鍵、音量鍵等，避免升級收到幹擾。升級期間手機將自動重啓。\n3. 如果您在使用過程
+        中遇到任何問題，請訪問“用戶中心”中的問題反饋或撥打官方服務熱線400-898-8666尋求支持。\n</string>
+    <string name="roll_back_old_version">如何切回穩定版本</string>
+    <string name="roll_back_old_version_operation">操作說明操作說明操作說明操作說明操作說明操作說明操作說明操作說明操作說明操作說明操作說明操作說明操作說明操作說明操作說明操作說明操作說明操作說明操作說明操作說明操作說明操作說明操作說明操作說明操作說明操作說明操作說明操作說明操作說明操作說明操作說明操作說明操作說明操作說明操作說明操作說明操作說明操作說明操作說明操作說明</string>
+    <string name="agree_disclaimer">已閱讀並理解</string>
+    <string name="disclaimer">免責申明</string>
+    <string name="disclaimer_unavailabled">免責申明不可用</string>
+    <string name="request_experience">申請</string>
+    <string name="request_processing">正在加載，請稍後</string>
+    <string name="request_experience_success">已申請</string>
+    <string name="request_experience_failed">未申請</string>
+    <string name="load_more_available">更多</string>
+    <string name="on_loading">正在加載</string>
+    <string name="no_more_data">沒有更多</string>
+    <string name="all_feedbacks">已有反饋</string>
+    <string name="my_feedback">我的反饋</string>
+    <string name="user_agreement">用戶協議</string>
+    <string name="ok">同意</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">確認</string>
+    <string name="proceedTo">前往</string>
+    <string name="user_agreement_detail">1. “用戶中心”爲您提供終端售後服務，需使用存儲，您的位置、電話和本地帳戶信息權限（其中存儲和您的位置權限僅在您選擇中國時需要）。\n2. 本應用使用過程中，需連接網絡並收集和處理以下信息\n&#160;&#160;&#160;&#160;&#8226;&#160;設備信息，包括IMEI、IMSI、MEID、SN、機型信息;\n&#160;&#160;&#160;&#160;&#8226;&#160;您向我們提交的姓名、地址、電話、郵箱。\n&#160;&#160;&#160;&#160;上述數據將傳輸至中國服務器。您可以退出本軟件來終止數據的收集和上傳。\n3. 本應用內容中的自助服務（中國），使用過程中將調用手機管家和備份的功能。</string>
+    <string name="user_agreement_decription">點擊“同意”，即表示您同意上述內容及<xliff:g id="LINK_BEGIN_0">LINK_BEGIN</xliff:g>用戶中心用戶協議<xliff:g id="LINK_END_1">LINK_END</xliff:g>和<xliff:g id="LINK_BEGIN_0">LINK_BEGIN</xliff:g>國美隱私政策<xliff:g id="LINK_END_1">LINK_END</xliff:g>。</string>
+    <string name="user_agreement_title">用戶中心用戶協議</string>
+    <string name="gome_privacy_policy_title">國美隱私協議</string>
+    <string name="user_center_help_title">幫助</string>
+    <string name="feedback_notify">我要反饋</string>
+    <string name="feedback_notify_server">請反饋您的問題 *</string>
+    <string name="feedback_issue_detail">請具體描述在什麽情況下，經過什麽操作，遇到什麽問題，輸入內容不超過500字。</string>
+    <string name="feedback_user_contact">請留下您的手機號或郵箱</string>
+    <string name="contact_us">如有需要，可撥打國美手機售後客服熱線:</string>
+    <string name="contact_us_tel">400&#8211;898&#8211;8666</string>
+    <string name="feedback_submit">提交</string>
+    <string name="feedback_module">選擇模塊</string>
+    <string name="mode1">模塊1</string>
+    <string name="mode2">模塊2</string>
+    <string name="mode3">模塊3</string>
+    <string name="mode4">模塊4</string>
+    
+    <string name="string_wlan_service_title">手機連接不上WLAN可能有以下情況：</string>
+    <string name="string_wlan_service_tip1">1.WLAN關閉。點擊\"設置\"&gt;\"WLAN\"開啓WLAN，選擇您要連接的WLAN輸入密碼建立連接。</string>
+    <string name="string_wlan_service_tip2">2.如果修改過路由器密碼，請點擊被修改的WLAN，選擇忽略該WLAN，再點擊此WLAN並輸入密碼重新連接。</string>
+    <string name="string_wlan_service_tip3">3.如果其他手機能連上，而您的手機無法連接，請關閉WLAN並重新打開，或者重啓手機。</string>
+
+    <string name="string_mobile_data_service_title">手機不能上網可能有以下原因：</string>
+    <string name="string_mobile_data_service_tip1">1.移動網絡沒有開啓。請到\"設置\"&gt;\"更多\"&gt;\"移動網絡\"中開啓\"移動網絡\";如果不在國內，還需要同時開啓\"數據漫遊\"(建議您向運營商查詢漫遊收費標准後再開啓)。</string>
+    <string name="string_mobile_data_service_tip2">2.沒有開通手機上網功能。請與運營商聯系開通GPRS上網。</string>
+    <string name="string_mobile_data_service_tip3">3.手機欠費。在繳費之後重啓手機即可。</string>
+    <string name="string_mobile_data_service_tip4">4.手機軟件衝突或者其他原因。請嘗試重啓手機。</string>
+
+    <string name="string_no_sim_card_found">沒有檢測到SIM卡，請確認是否有插入</string>
+
+    <string name="alert_network_unavaiable">網路不可用或網絡狀況不佳</string>
+    <string name="dialog_title_no_network">網絡不可用，請檢查網絡連接</string>
+    <string name="txt_set_network">設置</string>
+    <string name="txt_set_network_cancel">取消</string>
+
+    <string name="self_network">網絡連接</string>
+    <string name="self_data_activity">移動網絡連接</string>
+    <string name="self_wlan_activity">WLAN網絡連接</string>
+    <string name="to_setting">前往設置</string>
+    <string name="add_picture">添加圖片</string>
+
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_login_alert_feedback_your_suggestion">提交反饋前，需先登錄國美帳戶</string>
+    <string name="dialog_login_alert_apply_for_experience">需先登錄您的國美帳戶</string>
+    <string name="dialog_login_alert_apply_for_reservation">申請預約前，需先登錄國美帳戶</string>
+    <string name="dialog_message_cancel_reservation">是否取消預約？</string>
+
+    <string name="toast_input_infomation_is_null">請輸入正確的信息</string>
+    <string name="toast_input_infomation_correct_format">請輸入正確的手機號碼</string>
+    <string name="toast_input_phone_or_email_correct_format">請輸入正確的手機號碼或郵箱</string>
+
+    <string name="telephone">電話</string>
+    <string name="address">地址</string>
+    <string name="maintenance_margin">維修範圍</string>
+    <string name="business_hours">營業時間</string>
+    <string name="reserve_maintenance">預約維修</string>
+    <string name="module_number">型號</string>
+    <string name="reserve_station">預約網點</string>
+    <string name="reserve_data">預約時間</string>
+    <string name="issue_description">故障現象</string>
+    <string name="user_name">姓名</string>
+    <string name="mobile_number">手機號</string>
+    <string name="apply_reservation">申請預約服務</string>
+    <string name="my_reservation">我的預約</string>
+    <string name="machine_information">機器信息</string>
+    <string name="choose_station">維修網點</string>
+    <string name="arrival_time">到店日期</string>
+    <string name="failure_issue">故障描述</string>
+    <string name="personal_information">個人信息</string>
+    <string name="distract_citypicker">選擇地區</string>
+    <string name="next_step">下一步</string>
+    <string name="commit">提交</string>
+    <string name="distract_belong">所在地區</string>
+    <string name="reservation_service_type">服務類型</string>
+    <string name="maintenance_mode">送修方式</string>
+    <string name="reserve_timepicker">到店日期</string>
+    <string name="time_picker_date_format">%1$d年%2$d日</string>
+    <string name="reserve_username_hint">請輸入姓名</string>
+    <string name="reserve_mobile_number_hint">請輸入手機號碼</string>
+    <string name="card_title_reservation_number">預約單號</string>
+    <string name="card_title_reservation_time">預約時間</string>
+    <string name="card_title_reservation_station">預約網點</string>
+    <string name="card_title_model_number">型號</string>
+    <string name="card_title_user_name">姓名</string>
+    <string name="card_title_mobile_number">手機號</string>
+    <string name="card_title_issue_description">故障描述</string>
+    <string name="card_title_maintenance_number">維修單號</string>
+    <string name="card_title_current_state">當前狀態</string>
+    <string name="card_title_processing_time">受理時間</string>
+    <string name="card_title_return_machine_time">返機時間</string>
+    <string name="card_title_money_amount">金額</string>
+
+    <string name="fold_card_view">折疊</string>
+    <string name="expand_card_view">展開</string>
+    <string name="maintenance_card_title">維修進行</string>
+    <string name="reservation_card_title">提交成功</string>
+    <string name="history_card_title">曆史服務</string>
+    <string name="commit_success">預約提交成功</string>
+    <string name="commit_dlg_message">正在提交到服務器</string>
+    <string name="search_hint">輸入手機號查詢進度</string>
+    <string name="reserve_title">申請預約服務</string>
+    <string name="progress_dialog_loading">正在加載，請稍後</string>
+    <string name="progress_dialog_locating">定位中，請稍後</string>
+
+    <string name="issue_network_unavailable">無法上網</string>
+    <string name="issue_mobile_signal">信號不良</string>
+    <string name="issue_machine_boot">無法開機</string>
+    <string name="issue_system_crash">系統死機</string>
+    <string name="issue_display_error">顯示異常</string>
+    <string name="issue_call_exception">通話異常</string>
+    <string name="issue_system_halt_auto">自動關機</string>
+    <string name="issue_unrecognize_sim">不識別卡</string>
+    <string name="issue_touch_screen">觸摸不良</string>
+
+    <string name="string_module_crash">死機</string>
+    <string name="string_module_flash_back">閃退</string>
+    <string name="string_module_performance">性能</string>
+    <string name="string_module_consume_power">耗電</string>
+    <string name="string_module_signal">信號</string>
+    <string name="string_module_camera">相機</string>
+    <string name="string_module_call">通話</string>
+    <string name="string_module_others">其它</string>
+
+    <string name="issue_desciption_fragment_label">故障描述</string>
+    <string name="issue_description_hint">可在此處輸入詳細描述，輸入內容不能超過200字</string>
+    <string name="default_feedback_reboot">手機自動關機、重啓</string>
+    <string name="default_feedback_cant_power_on">無法開機</string>
+    <string name="default_feedback_wlan">WLAN連接失敗</string>
+    <string name="default_feedback_performance">手機運行慢</string>
+    <string name="default_feedback_data">打開數據業務開關後仍然無法上網</string>
+    <string name="default_feedback_volume_low">手機通話聲音小的解決方法</string>
+    <string name="default_feedback_charge_slow">手機充電過慢</string>
+    <string name="default_feedback_install_fail">應用程序安裝失敗</string>
+
+    <string name="default_feedback_reboot_detail">1、一般第三方安全類軟件、殺毒軟件容易導致數據衝突，卸載這類軟件後重啓，觀察手機是否正常。\n2、建議備份重要數據後將手機恢複出廠設置，不恢複數據的前提下使用一段時間看手機是否正常。\n\n若以上方法均無效，建議您聯系客服或者到售後網點檢測。
+    </string>
+    <string name="default_feedback_cant_power_on_detail">1、長按電源鍵10秒以上，嘗試強制重啓。\n2、充電半個小時後嘗試重新開機，因電量過低引起的無法開機，剛插入充電器時可能不亮屏，但呼吸燈會閃爍。\n\n若以上方法均無效，建議您聯系客服或者到售後網點檢測。
+</string>
+    <string name="default_feedback_wlan_detail">1、如果WLAN熱點爲加密熱點，請輸入正確的密碼，並區分大小寫。\n2、請將手機置于WLAN熱點的有效距離內，距離太遠可能會導致網絡自動斷開連接。\n3、WLAN可能已達到最大連接數，請嘗試連接其它的可用網絡。\n4、某些公共WLAN熱點可能需要在網頁端登錄，可以咨詢WLAN熱點提供方。\n5、請檢查無線路由器是否開啓MAC地址過濾功能。可以將手機的MAC地址設置爲可信任的MAC地址。\n\n若以上方法均無效，建議您聯系客服或者到售後網點檢測。
+</string>
+    <string name="default_feedback_performance_detail">1、進入手機管家，會自動開啓一鍵優化。\n2、進入手機管家界面，點擊清理加速，\n3、進入手機管家->清理加速->深度清理，根據屏幕提示清理手機中的垃圾文件。\n4、重啓手機。\n\n若以上方法均無效，建議您聯系客服或者到售後網點檢測。
+</string>
+    <string name="default_feedback_data_detail">1、請確認手機是否插入可正確的SIM/USIM卡。不同制式的手機支持的SIM/USIM不一樣，具體請咨詢手機提供商。\n2、請檢查是否已開通了上網業務。請聯系運營商開通上網功能。\n3、請檢查是否已欠費。運營商可能會停止向已欠費的用戶提供上網服務。\n4、請查看是否設置了流量顯示，若設置了流量限制，當使用的流量達到限制值後，無法使用數據。\n5、欠費充值後可能會導致無法使用上網業務，請重啓手機。\n\n若以上方法均無效，建議您聯系客服或者到售後網點檢測。
+</string>
+    <string name="default_feedback_volume_low_detail">1、在通話過程中，使用音量上鍵將聲音調大。\n2、查看貼膜、皮套等是否有遮擋住聽筒，如果有建議去除或更換。\n3、更換時間、地點、聯系人排除是否因網絡問題而導致。\n\n若以上方法均無效，建議您聯系客服或者到售後網點檢測
+</string>
+    <string name="default_feedback_charge_slow_detail">1、如果充電長時間未充滿，請先確認是否使用的原裝充電器給手機充電、是否存在充電接口接觸不良等現象。\n2、建議在充電時不要長時間使用手機，不要將手機置放在散熱較差的環境中。\n3、若使用輸出電流較小的電源充電，充電會比較慢，建議用原裝充電器或者更換輸出電流稍大的電源充電。\n\n若以上方法均無效，建議您聯系客服或者到售後網點檢測。
+</string>
+    <string name="default_feedback_install_fail_detail">1、手機僅支持APK格式的第三方應用，請檢查格式是否正確。\n2、下載的第三方應用程序可能機不兼容，建議嘗試下載其它類似應用。\n3、需要確認是否已經信任該程序來源。進入設置->高級設置->安全，選擇未知來源，然後重新安裝該應用。\n\n若以上方法均無效，建議您聯系客服或者到售後網點檢測。
+</string>
+
+    <string name="reservation_cancel">取消預約</string>
+    <string name="contact_customer_service">聯系客服</string>
+
+    <string name="experience_applying">正在申請，請稍後</string>
+    <string name="choose_module">選擇模塊</string>
+    <string name="choose_finish">完成</string>
+    <string name="choose_tip">請選擇是以下哪個模塊出現問題(單選)</string>
+    <string name="history_time">提交時間: </string>
+    <string name="solution">解決辦法: </string>
+
+<string name="edit_completed">已填</string>
+    <string name="entered_error">未輸入或輸入有誤</string>
+    <string name="edit_not_null">輸入不能爲空</string>
+    
+    <string name="default_summary_machine_information">型號</string>
+    <string name="default_summary_region">省份</string>
+    <string name="default_summary_station">請選擇網點名稱</string>
+    <string name="default_summary_reservation_time">選擇日期及時間</string>
+    <string name="default_summary_issue_description">請填寫</string>
+    <string name="default_summary_service_type">選擇類型</string>
+    <string name="default_summary_user_name">請輸入姓名</string>
+    <string name="default_summary_mobile_number">請輸入手機號</string>
+
+    <string name="error_unselect">未選擇</string>
+    <string name="check_not_null_message">信息填寫錯誤，*爲必填內容</string>
+    <string name="maintenance_mode_content">到店維修</string>
+
+    <string name="service_type_item1">維修</string>
+    <string name="service_type_item2">退貨</string>
+    <string name="service_type_item3">換貨</string>
+
+    <string name="select_district_required">請先選擇所在地區</string>
+    
+    <string name="dialog_permit">確認</string>
+    <string name="dialog_forbid">取消</string>
+    <string name="dialog_yes">是</string>
+    <string name="dialog_no">否</string>
+    <string name="dialog_location_message">是否打開GPS來獲取您的位置?</string>
+    <string name="unknow">--</string>
+    <string name="unknow_address">無網絡連接，請檢查網絡設置</string>
+    <string name="progress_feedback_to_server">正在提交，請稍後</string>
+    <string name="suggestion_send_fail">發送失敗</string>
+    <string name="server_not_available">服務器不可用!</string>
+    <string name="refreshing_data">正在加載，請稍後</string>
+    <string name="network_data_unaccessable">無法獲取數據，請重試</string>
+    <string name="network_timeout">網絡超時</string>
+    <string name="no_data_query">沒有可用數據</string>
+    <string name="appointment_cancel_success">預約取消成功</string>
+    <string name="appointment_cancel_failed">預約取消失敗</string>
+
+    <string name="appointment_maintenance_title">預約及維修進度</string>
+
+    <string name="toast_out_of_max_length">您的輸入字數已達到限制</string>
+    <string name="experience_version_introduce_summary">升級概要:</string>
+    <string name="experience_version_introduce_size">更新包大小:</string>
+    <string name="experience_version_introduce_description">本次更新:</string>
+    <string name="toast_ensure_your_network">無法獲取地址數據，請確認網絡連接可用</string>
+    <string name="toast_no_maintenance_center_data">該地區暫無售後網點</string>
+
+    <string name="string_service_type">服務類型</string>
+    <string name="location_failed_message4">定位失敗，請檢查設備網絡是否通暢,然後重試</string>
+    <string name="location_failed_message13">定位失敗，建議開啓設備的WIFI模塊，並將設備中插入一張可以正常工作的SIM卡，或者檢查GPS是否開啓,然後重試</string>
+    <string name="location_failed_message18">定位失敗，建議手機關閉飛行模式，並打開WIFI開關,然後重試</string>
+    <string name="location_failed_message19">定位失敗，建議手機插上sim卡，打開WIFI開關,然後重試</string>
+    <string name="location_failed_default_message">定位失敗</string>
+
+    <string name="reservation_maintenance_no_maintenance">暫無預約及維修進度</string>
+    <string name="reservation_maintenance_no_information">未查詢到相關信息</string>
+    <string name="reservation_maintenance_gome_account_notification">登錄國美帳戶後，\n可以申請預約服務和查看我的維修進度</string>
+    <string name="gome_account_token_invalid">登錄已失效，請重新登錄</string>
+    <string name="experience_version_apply_success_title">申請成功</string>
+    <string name="experience_version_apply_success_message">申請成功，請在“設置”>“系統更新”中更新當前版本</string>
+    <string name="system_update">系統更新</string>
+    <string name="url_dialog_loading">正在加載，請稍後</string>
+    <string name="nick_name_is_null">未設置昵稱</string>
+
+    <string name="choose_phone_number_title">選擇電話號碼</string>
+    <string name="string_toast_picture_out_of_size">圖片大小不能超過10MB</string>
+    <string name="string_picture_add_notice">圖片(選填，請提供問題截圖)</string>
+
+    <string name="account_progress_dialog_loading">正在加載，請稍後</string>
+    <string name="account_progress_dialog_error">無法連接到服務器</string>
+    <string name="no_text">No_text_show</string>
+
+    <string name="guideline_title">用機指南</string>
+    <string name="guide_line_title">用機指南</string>
+    <string name="iris_instructions">虹膜使用說明</string>
+    <string name="iris_input">虹膜錄入</string>
+    <string name="start_the_safe_way">啓動虹膜視界</string>
+    <string name="encryption_method">加密方法</string>
+
+    <string name="facial_recognition_instructions">面部識別說明</string>
+    <string name="face_input">人臉錄入</string>
+    <string name="face_me">Face-me</string>
+    <string name="face_recognition_application_lock">面部識別應用鎖</string>
+    <string name="gallery_and_weChat_lock">圖庫和微信鎖定</string>
+    <string name="facial_recognition_unlock">面部識別解鎖</string>
+
+    <string name="my_keys">鑰匙串</string>
+    <string name="iris_safe">虹膜安全</string>
+    <string name="generate_password">生成密碼</string>
+    <string name="one_key_copy_and_paste">一鍵複制粘貼</string>
+    <string name="create_new_user_name_and_password">新建用戶名和密碼</string>
+    <string name="password_disorder">密碼亂序</string>
+
+    <string name="my_pocket">全局收藏</string>
+    <string name="open_pocket">打開全局收藏</string>
+    <string name="pocket_gesture">全局收藏手勢</string>
+    <string name="search_function">搜索功能</string>
+    <string name="smart_label">智能標簽</string>
+
+    <string name="hi_broad">負一屏</string>
+    <string name="scenario_intelligence">情景智能</string>
+    <string name="news_recommended">新聞推薦</string>
+    <string name="global_search">全局搜索</string>
+
+    <string name="system_ui">System UI</string>
+    <string name="open_notification_center">打開通知中心</string>
+    <string name="open_control_center">打開控制中心</string>
+    <string name="back_gesture">返回手勢</string>
+    <string name="back_status_bar_top">雙擊狀態欄返回頂部</string>
+    <string name="multi_app_sort">多應用整理</string>
+
+    <string name="sounder_record">答錄機</string>
+    <string name="record_voice">錄制答錄語音</string>
+    <string name="manual_record">手動答錄</string>
+    <string name="automatic_record">自動答錄</string>
+    <string name="view_recording">答錄錄音查看</string>
+
+</resources>

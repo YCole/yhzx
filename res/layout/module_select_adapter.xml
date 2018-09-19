@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/gome_list00_height"
+    android:gravity="center">
+
+    <TextView android:id="@+id/textview_module"
+        android:layout_alignParentStart="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="@dimen/gome_first_line_text_size" />
+
+    <CheckBox android:id="@+id/item_cb_section"
+        android:layout_marginRight="@dimen/gome_padding_size_14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>

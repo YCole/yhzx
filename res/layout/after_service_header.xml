@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/after_service_header_bg">
+    <ImageView android:id="@+id/my_location"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/gome_padding_size_20dp"
+        android:src="@drawable/map_icon"
+        android:tint="@color/white"
+        android:layout_alignParentStart="true"/>
+    <TextView android:id="@+id/my_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:textColor="@color/white"/>
+    <ImageView android:id="@+id/expanded_picker"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/gome_padding_size_20dp"
+        android:src="@drawable/expanded"/>
+</RelativeLayout>

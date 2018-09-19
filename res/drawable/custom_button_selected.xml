@@ -1,0 +1,11 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+<solid android:color="@color/gome_button_focus_color"/>
+<corners android:radius="30dp"/>
+<gradient
+    android:angle="270"
+    android:centerColor="@color/gome_button_focus_color"
+    android:centerX="0.5"
+    android:centerY="0.5"
+    android:endColor="@color/gome_button_focus_color"
+    android:startColor="@color/gome_button_focus_color" />
+</shape>
